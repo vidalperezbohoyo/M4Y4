@@ -357,7 +357,7 @@
           },
           "position": {
             "x": 2552,
-            "y": 360
+            "y": 368
           }
         },
         {
@@ -369,8 +369,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D0",
+                "value": "2"
               }
             ]
           },
@@ -408,8 +408,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D6",
+                "value": "10"
               }
             ]
           },
@@ -525,8 +525,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D1",
+                "value": "1"
               }
             ]
           },
@@ -575,8 +575,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D7",
+                "value": "9"
               }
             ]
           },
@@ -594,8 +594,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D2",
+                "value": "4"
               }
             ]
           },
@@ -613,8 +613,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D8",
+                "value": "20"
               }
             ]
           },
@@ -796,8 +796,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D3",
+                "value": "3"
               }
             ]
           },
@@ -815,8 +815,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D9",
+                "value": "19"
               }
             ]
           },
@@ -1172,13 +1172,13 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D4",
+                "value": "8"
               }
             ]
           },
           "position": {
-            "x": 1992,
+            "x": 1984,
             "y": 768
           }
         },
@@ -1211,8 +1211,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D10",
+                "value": "22"
               }
             ]
           },
@@ -1330,8 +1330,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D5",
+                "value": "7"
               }
             ]
           },
@@ -1349,8 +1349,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "D11",
+                "value": "21"
               }
             ]
           },
