@@ -8,35 +8,35 @@ linear_speed = 7 # 0-7
 angular_speed = 2
 
 
-pressed = set()
+pressed = None
 
 state = "STOPPED"
 
 def on_press(key):
     global pressed
     try:
-        pressed.add(key.char)
+        pressed = key.char
     except AttributeError:
         pass
    
-def on_release(key):
+def on_release():
     global pressed
     #pressed.remove(key.char)
-    pressed = set()
+    pressed = None
     
 def getState():
     #print(pressed)
     
-    if 'w' in pressed:
+    if 'w' == pressed:
         return "FORWARD"
     
-    if 's' in pressed:
+    if 's' == pressed:
         return "BACKWARD"
     
-    if 'd' in pressed:
+    if 'd' == pressed:
         return "ROT_RIGHT"
     
-    if 'a' in pressed:
+    if 'a' == pressed:
         return "ROT_LEFT"
 
     return "STOPPED"
