@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import serial
+import serial, signal
 
 CLOCKWISE = 0
 ANTI_CLOCKWISE = 1
@@ -31,6 +31,13 @@ class RobotConfig:
     rearRightAngle = 0
     rearLeftAngle = 0
 
+
+def ctrl_c_handler(signum, frame):
+    print("\nConexion closed!")
+    serialBus.close()
+    exit(0)
+ 
+ 
 def numTo3bitStr(num):
     return format(num, 'b').zfill(3)
 
@@ -62,8 +69,10 @@ def send(config):
               
     else:
         print("Conexion broken!")
+        exit(1)
 
 
+signal.signal(signal.SIGINT, ctrl_c_handler)
 
 while keep_running:
     
