@@ -58,6 +58,10 @@ def wheelSense(speed):
     else:
         return 1
     
+    
+def degToServoPosition(degrees):
+    pass
+    
 def configToOrders(input):
     
     orders = []
