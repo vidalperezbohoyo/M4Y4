@@ -49,6 +49,9 @@ def sendConfig(config):
 def numTo3bitStr(num):
     return format(num, 'b').zfill(3)
 
+def numTo4bitStr(num):
+    return format(num, 'b').zfill(4)
+
 def wheelSense(speed):
     if speed > 0:
         return 0
@@ -61,11 +64,15 @@ def configToOrders(input):
     
     # Movement orders
     orders.append('0000'+ str(wheelSense(input.frontRightSpeed)) + numTo3bitStr(abs(input.frontRightSpeed)))
-    #orders.append('0001'+ str(input.frontLeftSense) + numTo3bitStr(input.frontLeftSpeed))
-    #orders.append('0010'+ str(input.rearRightSense) + numTo3bitStr(input.rearRightSpeed))
-    #orders.append('0011'+ str(input.rearLeftSense) + numTo3bitStr(input.rearLeftSpeed))
+    orders.append('0001'+ str(wheelSense(input.frontLeftSpeed)) + numTo3bitStr(abs(input.frontLeftSpeed)))
+    orders.append('0010'+ str(wheelSense(input.rearRightSpeed)) + numTo3bitStr(abs(input.rearRightSpeed)))
+    orders.append('0011'+ str(wheelSense(input.rearLeftSpeed)) + numTo3bitStr(abs(input.rearLeftSpeed)))
     
     # Angle orders
+    orders.append('0100' + numTo4bitStr(input.frontRightAngle))
+    orders.append('0101' + numTo4bitStr(input.frontLeftAngle))
+    orders.append('0110' + numTo4bitStr(input.rearRightAngle))
+    orders.append('0111' + numTo4bitStr(input.rearLeftAngle))
     
     # Others
     
