@@ -1,7 +1,10 @@
-import serial
+import serial, math
 
 CLOCKWISE = 0
 ANTI_CLOCKWISE = 1
+
+# Degree:index
+servoPositions = [0, 15, 20, 30, 45, 60, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180]
 
 serialBus = None
 
@@ -60,8 +63,11 @@ def wheelSense(speed):
     
     
 def degToServoPosition(degrees):
-    pass
-    
+    degrees = int(degrees)
+    closest = min(servoPositions, key=lambda angle: math.sqrt(degrees^2 + angle^2) )
+
+    return servoPositions.index(closest)
+
 def configToOrders(input):
     
     orders = []
@@ -73,11 +79,10 @@ def configToOrders(input):
     orders.append('0011'+ str(wheelSense(input.rearLeftSpeed)) + numTo3bitStr(abs(input.rearLeftSpeed)))
     
     # Angle orders
-    orders.append('0100' + numTo4bitStr(input.frontRightAngle))
-    orders.append('0101' + numTo4bitStr(input.frontLeftAngle))
-    orders.append('0110' + numTo4bitStr(input.rearRightAngle))
-    orders.append('0111' + numTo4bitStr(input.rearLeftAngle))
-    
+    orders.append('0100' + numTo4bitStr(degToServoPosition(input.frontRightAngle)))
+    orders.append('0101' + numTo4bitStr(degToServoPosition(input.frontLeftAngle)))
+    orders.append('0110' + numTo4bitStr(degToServoPosition(input.rearRightAngle)))
+    orders.append('0111' + numTo4bitStr(degToServoPosition(input.rearLeftAngle)))
     # Others
     
     return orders
