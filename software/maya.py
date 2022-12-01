@@ -4,7 +4,7 @@ CLOCKWISE = 0
 ANTI_CLOCKWISE = 1
 
 # Degree:index
-servoPositions = [0, 15, 20, 30, 45, 60, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180]
+servoPositions = [0, 15, 30, 45, 60, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 180]
 
 serialBus = None
 
@@ -63,8 +63,16 @@ def wheelSense(speed):
     
     
 def degToServoPosition(degrees):
-    degrees = int(degrees)
-    closest = min(servoPositions, key=lambda angle: math.sqrt(degrees^2 + angle^2) )
+    
+    # Transform to servo referece system
+        
+    # Angle in must be from 90 to -90
+    if (degrees > 90 or degrees < -90):
+        print("Wheel angles must be between [90º and -90º]")
+        exit(1)
+    degrees = 90 - int(degrees)
+    
+    closest = min(servoPositions, key=lambda angle: math.sqrt((degrees)^2 + (angle)^2))
 
     return servoPositions.index(closest)
 

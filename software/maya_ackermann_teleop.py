@@ -73,8 +73,7 @@ def showGUI():
     
     print("\n\nLinear speed: [" + lin + ']')
     
-    
-    
+ 
 
 #### PROGRAM
 
@@ -97,7 +96,7 @@ while True:
     if 'd' in pressed:
         msg.frontLeftAngle = -30
         msg.frontRightAngle = -30
-    
+         
     if 'a' in pressed:
         msg.frontLeftAngle = 30
         msg.frontRightAngle = 30
@@ -113,7 +112,17 @@ while True:
         msg.frontRightSpeed = -linear_speed
         msg.rearLeftSpeed = -linear_speed
         msg.rearRightSpeed = -linear_speed
-
+    
+    if not 's' in pressed and not 'w' in pressed:
+        msg.frontLeftSpeed = 0
+        msg.frontRightSpeed = 0
+        msg.rearLeftSpeed = 0
+        msg.rearRightSpeed = 0
+    
+    if not 'd' in pressed and not 'a' in pressed:
+        msg.frontLeftAngle = 0
+        msg.frontRightAngle = 0
+         
     maya.sendConfig(msg)
     showGUI()
 
