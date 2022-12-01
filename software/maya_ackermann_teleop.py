@@ -28,7 +28,10 @@ def on_press(key):
    
 def on_release(key):
     global pressed
-    pressed = set()
+    try:   
+        pressed.remove(key.char)
+    except AttributeError:
+        pass
 
 def keyCapture(none):
     # Collect events until released
