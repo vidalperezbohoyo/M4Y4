@@ -86,6 +86,11 @@ def rightTurn():
 
 def forward():
     config = maya.RobotConfig
+
+    config.frontLeftAngle = 0
+    config.frontRightAngle = 0
+    config.rearLeftAngle = 0
+    config.rearRightAngle = 0
     
     config.frontRightSpeed = linear_speed
     config.frontLeftSpeed = linear_speed
@@ -96,6 +101,11 @@ def forward():
 
 def backward():
     config = maya.RobotConfig
+
+    config.frontLeftAngle = 0
+    config.frontRightAngle = 0
+    config.rearLeftAngle = 0
+    config.rearRightAngle = 0
     
     config.frontRightSpeed = -linear_speed
     config.frontLeftSpeed = -linear_speed
