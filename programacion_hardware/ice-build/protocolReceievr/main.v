@@ -4,31 +4,45 @@
 
 //---- Top entity
 module main #(
+ parameter v6ee1a8 = 2,
+ parameter vdc093e = 5,
+ parameter vcc321e = 5,
+ parameter v951217 = 5,
  parameter v6e1c38 = 1,
  parameter vbc0bbc = 0,
  parameter v421b28 = "v421b28.list",
  parameter v6bdaad = "v6bdaad.list",
- parameter v276dbe = 80,
  parameter v6f9858 = 160,
+ parameter v6bdce1 = 990,
+ parameter v276dbe = 80,
+ parameter v53ff1e = 160,
  parameter v0704cc = "v0704cc.list",
+ parameter v0846ea = 880,
  parameter v7090a7 = "v7090a7.list",
  parameter vb9afdf = 80,
  parameter v9f7f3b = 0,
- parameter v45979e = 160,
+ parameter v9f3ce8 = 830,
  parameter vbb0639 = 0,
+ parameter v8f32d8 = 2,
+ parameter vdf0d80 = 750,
+ parameter va9c16b = 660,
+ parameter v134966 = 622,
+ parameter v42c6c0 = 554,
  parameter v932d72 = "v932d72.list",
  parameter v910b08 = "v910b08.list",
+ parameter v3f0b2a = 160,
+ parameter vc7a5d2 = 0,
+ parameter v077173 = 160,
  parameter vd4ab85 = 80,
  parameter ve14fd6 = 80,
- parameter v91e2de = 160,
  parameter v354027 = "v354027.list",
- parameter v0cfdbf = 160,
  parameter v2436cf = 0,
  parameter v272d22 = 0,
  parameter vfccb12 = "vfccb12.list"
 ) (
  input vecd634,
  input vclk,
+ output v361765,
  output v06e9b7,
  output vc16043,
  output v2ff3d8,
@@ -41,10 +55,10 @@ module main #(
  output v199360,
  output va2e0dd,
  output v315fec,
- output v654671,
- output v337546,
- output v0fda21,
- output v7894cd,
+ output v8f1c8e,
+ output v3427b0,
+ output v493d2f,
+ output v259d3d,
  output [0:7] vinit
 );
  localparam p0 = vbc0bbc;
@@ -54,21 +68,37 @@ module main #(
  localparam p22 = v354027;
  localparam p23 = vfccb12;
  localparam p28 = v6f9858;
- localparam p30 = v45979e;
- localparam p32 = v0cfdbf;
- localparam p34 = v91e2de;
- localparam p44 = v421b28;
- localparam p45 = v6bdaad;
- localparam p46 = v932d72;
- localparam p47 = v910b08;
- localparam p49 = v2436cf;
- localparam p50 = vbb0639;
- localparam p52 = v9f7f3b;
- localparam p54 = v272d22;
- localparam p58 = v276dbe;
- localparam p59 = vd4ab85;
- localparam p62 = vb9afdf;
- localparam p65 = ve14fd6;
+ localparam p33 = v421b28;
+ localparam p34 = v6bdaad;
+ localparam p35 = v932d72;
+ localparam p36 = v910b08;
+ localparam p38 = v2436cf;
+ localparam p39 = vbb0639;
+ localparam p41 = v9f7f3b;
+ localparam p43 = v272d22;
+ localparam p47 = v276dbe;
+ localparam p48 = vd4ab85;
+ localparam p51 = vb9afdf;
+ localparam p54 = ve14fd6;
+ localparam p59 = v3f0b2a;
+ localparam p62 = v53ff1e;
+ localparam p65 = v077173;
+ localparam p68 = v6ee1a8;
+ localparam p69 = vdc093e;
+ localparam p72 = vdc093e;
+ localparam p76 = vcc321e;
+ localparam p80 = vcc321e;
+ localparam p81 = v951217;
+ localparam p84 = v951217;
+ localparam p91 = vc7a5d2;
+ localparam p95 = v42c6c0;
+ localparam p97 = v134966;
+ localparam p99 = va9c16b;
+ localparam p101 = vdf0d80;
+ localparam p103 = v9f3ce8;
+ localparam p105 = v0846ea;
+ localparam p107 = v6bdce1;
+ localparam p109 = v8f32d8;
  wire w1;
  wire w3;
  wire w4;
@@ -92,89 +122,146 @@ module main #(
  wire w26;
  wire [0:7] w27;
  wire w29;
+ wire w30;
  wire w31;
- wire w33;
- wire w35;
- wire w36;
- wire w37;
- wire w38;
- wire w39;
- wire w40;
- wire w41;
- wire w42;
- wire w43;
- wire [0:7] w48;
- wire [0:7] w51;
+ wire w32;
+ wire [0:7] w37;
+ wire [0:7] w40;
+ wire [0:7] w42;
+ wire [0:7] w44;
+ wire [0:7] w45;
+ wire [0:7] w46;
+ wire [0:7] w49;
+ wire [0:7] w50;
+ wire [0:7] w52;
  wire [0:7] w53;
  wire [0:7] w55;
  wire [0:7] w56;
- wire [0:7] w57;
- wire [0:7] w60;
- wire [0:7] w61;
- wire [0:7] w63;
- wire [0:7] w64;
- wire [0:7] w66;
- wire [0:7] w67;
- wire w68;
- wire w69;
+ wire w57;
+ wire w58;
+ wire w60;
+ wire w61;
+ wire w63;
+ wire w64;
+ wire w66;
+ wire w67;
  wire w70;
- wire w71;
- wire w72;
+ wire [0:7] w71;
  wire w73;
  wire w74;
  wire w75;
- wire w76;
  wire w77;
  wire w78;
- wire w79;
- wire w80;
- wire w81;
+ wire [0:7] w79;
  wire w82;
- wire w83;
- wire w84;
+ wire [0:7] w83;
  wire w85;
  wire w86;
  wire w87;
  wire w88;
  wire w89;
  wire w90;
- wire w91;
- wire [0:1] w92;
- wire [0:1] w93;
- wire [0:1] w94;
- wire [0:1] w95;
- wire [0:3] w96;
- wire [0:3] w97;
- wire [0:3] w98;
- wire [0:3] w99;
- wire [0:3] w100;
- wire [0:3] w101;
- wire [0:3] w102;
- wire [0:3] w103;
+ wire w92;
+ wire w93;
+ wire w94;
+ wire w96;
+ wire w98;
+ wire w100;
+ wire w102;
  wire w104;
- wire [0:3] w105;
- wire [0:2] w106;
- wire w107;
- wire [0:3] w108;
- wire w109;
- wire [0:3] w110;
+ wire w106;
+ wire [0:2] w108;
+ wire w110;
  wire [0:2] w111;
- wire [0:2] w112;
+ wire w112;
  wire w113;
- wire [0:3] w114;
- wire [0:2] w115;
+ wire w114;
+ wire w115;
  wire w116;
  wire w117;
  wire w118;
  wire w119;
- wire [0:3] w120;
- wire [0:3] w121;
+ wire w120;
+ wire w121;
  wire w122;
  wire w123;
  wire w124;
  wire w125;
- wire [0:3] w126;
- wire [0:3] w127;
+ wire w126;
+ wire w127;
+ wire w128;
+ wire w129;
+ wire w130;
+ wire w131;
+ wire w132;
+ wire w133;
+ wire w134;
+ wire w135;
+ wire w136;
+ wire w137;
+ wire w138;
+ wire w139;
+ wire w140;
+ wire w141;
+ wire w142;
+ wire w143;
+ wire w144;
+ wire w145;
+ wire w146;
+ wire w147;
+ wire w148;
+ wire [0:3] w149;
+ wire [0:3] w150;
+ wire [0:3] w151;
+ wire [0:3] w152;
+ wire [0:3] w153;
+ wire [0:3] w154;
+ wire [0:3] w155;
+ wire [0:3] w156;
+ wire [0:3] w157;
+ wire [0:1] w158;
+ wire [0:1] w159;
+ wire [0:1] w160;
+ wire [0:1] w161;
+ wire [0:1] w162;
+ wire w163;
+ wire [0:3] w164;
+ wire [0:2] w165;
+ wire w166;
+ wire [0:3] w167;
+ wire w168;
+ wire [0:3] w169;
+ wire [0:2] w170;
+ wire [0:2] w171;
+ wire w172;
+ wire [0:3] w173;
+ wire [0:2] w174;
+ wire w175;
+ wire w176;
+ wire w177;
+ wire w178;
+ wire [0:3] w179;
+ wire [0:3] w180;
+ wire w181;
+ wire w182;
+ wire w183;
+ wire w184;
+ wire [0:3] w185;
+ wire [0:3] w186;
+ wire w187;
+ wire w188;
+ wire w189;
+ wire w190;
+ wire w191;
+ wire w192;
+ wire w193;
+ wire w194;
+ wire w195;
+ wire w196;
+ wire w197;
+ wire w198;
+ wire w199;
+ wire w200;
  assign v06e9b7 = w4;
  assign v2ff3d8 = w5;
  assign v3a1698 = w6;
@@ -188,351 +275,788 @@ module main #(
  assign v199360 = w17;
  assign v315fec = w18;
  assign w24 = vecd634;
- assign v654671 = w40;
- assign v0fda21 = w41;
- assign v337546 = w42;
- assign v7894cd = w43;
- assign w68 = vclk;
- assign w69 = vclk;
- assign w70 = vclk;
- assign w71 = vclk;
- assign w72 = vclk;
- assign w73 = vclk;
- assign w74 = vclk;
- assign w75 = vclk;
- assign w76 = vclk;
- assign w77 = vclk;
- assign w78 = vclk;
- assign w79 = vclk;
- assign w80 = vclk;
- assign w81 = vclk;
- assign w82 = vclk;
- assign w83 = vclk;
- assign w84 = vclk;
- assign w85 = vclk;
- assign w86 = vclk;
- assign w87 = vclk;
- assign w88 = vclk;
- assign w89 = vclk;
- assign w90 = vclk;
- assign w91 = vclk;
- assign w69 = w68;
- assign w70 = w68;
- assign w70 = w69;
- assign w71 = w68;
- assign w71 = w69;
- assign w71 = w70;
- assign w72 = w68;
- assign w72 = w69;
- assign w72 = w70;
- assign w72 = w71;
- assign w73 = w68;
- assign w73 = w69;
- assign w73 = w70;
- assign w73 = w71;
- assign w73 = w72;
- assign w74 = w68;
- assign w74 = w69;
- assign w74 = w70;
- assign w74 = w71;
- assign w74 = w72;
- assign w74 = w73;
- assign w75 = w68;
- assign w75 = w69;
- assign w75 = w70;
- assign w75 = w71;
- assign w75 = w72;
- assign w75 = w73;
+ assign v8f1c8e = w87;
+ assign v493d2f = w88;
+ assign v3427b0 = w89;
+ assign v259d3d = w90;
+ assign v361765 = w92;
+ assign w112 = vclk;
+ assign w113 = vclk;
+ assign w114 = vclk;
+ assign w115 = vclk;
+ assign w116 = vclk;
+ assign w117 = vclk;
+ assign w118 = vclk;
+ assign w119 = vclk;
+ assign w120 = vclk;
+ assign w121 = vclk;
+ assign w122 = vclk;
+ assign w123 = vclk;
+ assign w124 = vclk;
+ assign w125 = vclk;
+ assign w126 = vclk;
+ assign w127 = vclk;
+ assign w128 = vclk;
+ assign w129 = vclk;
+ assign w130 = vclk;
+ assign w131 = vclk;
+ assign w132 = vclk;
+ assign w133 = vclk;
+ assign w134 = vclk;
+ assign w135 = vclk;
+ assign w136 = vclk;
+ assign w137 = vclk;
+ assign w138 = vclk;
+ assign w139 = vclk;
+ assign w140 = vclk;
+ assign w141 = vclk;
+ assign w142 = vclk;
+ assign w143 = vclk;
+ assign w144 = vclk;
+ assign w145 = vclk;
+ assign w146 = vclk;
+ assign w147 = vclk;
+ assign w148 = vclk;
  assign w75 = w74;
- assign w76 = w68;
- assign w76 = w69;
- assign w76 = w70;
- assign w76 = w71;
- assign w76 = w72;
- assign w76 = w73;
- assign w76 = w74;
- assign w76 = w75;
- assign w77 = w68;
- assign w77 = w69;
- assign w77 = w70;
- assign w77 = w71;
- assign w77 = w72;
- assign w77 = w73;
- assign w77 = w74;
- assign w77 = w75;
- assign w77 = w76;
- assign w78 = w68;
- assign w78 = w69;
- assign w78 = w70;
- assign w78 = w71;
- assign w78 = w72;
- assign w78 = w73;
- assign w78 = w74;
- assign w78 = w75;
- assign w78 = w76;
- assign w78 = w77;
- assign w79 = w68;
- assign w79 = w69;
- assign w79 = w70;
- assign w79 = w71;
- assign w79 = w72;
- assign w79 = w73;
- assign w79 = w74;
- assign w79 = w75;
- assign w79 = w76;
- assign w79 = w77;
- assign w79 = w78;
- assign w80 = w68;
- assign w80 = w69;
- assign w80 = w70;
- assign w80 = w71;
- assign w80 = w72;
- assign w80 = w73;
- assign w80 = w74;
- assign w80 = w75;
- assign w80 = w76;
- assign w80 = w77;
- assign w80 = w78;
- assign w80 = w79;
- assign w81 = w68;
- assign w81 = w69;
- assign w81 = w70;
- assign w81 = w71;
- assign w81 = w72;
- assign w81 = w73;
- assign w81 = w74;
- assign w81 = w75;
- assign w81 = w76;
- assign w81 = w77;
- assign w81 = w78;
- assign w81 = w79;
- assign w81 = w80;
- assign w82 = w68;
- assign w82 = w69;
- assign w82 = w70;
- assign w82 = w71;
- assign w82 = w72;
- assign w82 = w73;
- assign w82 = w74;
- assign w82 = w75;
- assign w82 = w76;
- assign w82 = w77;
- assign w82 = w78;
- assign w82 = w79;
- assign w82 = w80;
- assign w82 = w81;
- assign w83 = w68;
- assign w83 = w69;
- assign w83 = w70;
- assign w83 = w71;
- assign w83 = w72;
- assign w83 = w73;
- assign w83 = w74;
- assign w83 = w75;
- assign w83 = w76;
- assign w83 = w77;
- assign w83 = w78;
- assign w83 = w79;
- assign w83 = w80;
- assign w83 = w81;
- assign w83 = w82;
- assign w84 = w68;
- assign w84 = w69;
- assign w84 = w70;
- assign w84 = w71;
- assign w84 = w72;
- assign w84 = w73;
- assign w84 = w74;
- assign w84 = w75;
- assign w84 = w76;
- assign w84 = w77;
- assign w84 = w78;
- assign w84 = w79;
- assign w84 = w80;
- assign w84 = w81;
- assign w84 = w82;
- assign w84 = w83;
- assign w85 = w68;
- assign w85 = w69;
- assign w85 = w70;
- assign w85 = w71;
- assign w85 = w72;
- assign w85 = w73;
- assign w85 = w74;
- assign w85 = w75;
- assign w85 = w76;
- assign w85 = w77;
- assign w85 = w78;
- assign w85 = w79;
- assign w85 = w80;
- assign w85 = w81;
- assign w85 = w82;
- assign w85 = w83;
- assign w85 = w84;
- assign w86 = w68;
- assign w86 = w69;
- assign w86 = w70;
- assign w86 = w71;
- assign w86 = w72;
- assign w86 = w73;
  assign w86 = w74;
  assign w86 = w75;
- assign w86 = w76;
- assign w86 = w77;
- assign w86 = w78;
- assign w86 = w79;
- assign w86 = w80;
- assign w86 = w81;
- assign w86 = w82;
- assign w86 = w83;
- assign w86 = w84;
- assign w86 = w85;
- assign w87 = w68;
- assign w87 = w69;
- assign w87 = w70;
- assign w87 = w71;
- assign w87 = w72;
- assign w87 = w73;
- assign w87 = w74;
- assign w87 = w75;
- assign w87 = w76;
- assign w87 = w77;
- assign w87 = w78;
- assign w87 = w79;
- assign w87 = w80;
- assign w87 = w81;
- assign w87 = w82;
- assign w87 = w83;
- assign w87 = w84;
- assign w87 = w85;
- assign w87 = w86;
- assign w88 = w68;
- assign w88 = w69;
- assign w88 = w70;
- assign w88 = w71;
- assign w88 = w72;
- assign w88 = w73;
- assign w88 = w74;
- assign w88 = w75;
- assign w88 = w76;
- assign w88 = w77;
- assign w88 = w78;
- assign w88 = w79;
- assign w88 = w80;
- assign w88 = w81;
- assign w88 = w82;
- assign w88 = w83;
- assign w88 = w84;
- assign w88 = w85;
- assign w88 = w86;
- assign w88 = w87;
- assign w89 = w68;
- assign w89 = w69;
- assign w89 = w70;
- assign w89 = w71;
- assign w89 = w72;
- assign w89 = w73;
- assign w89 = w74;
- assign w89 = w75;
- assign w89 = w76;
- assign w89 = w77;
- assign w89 = w78;
- assign w89 = w79;
- assign w89 = w80;
- assign w89 = w81;
- assign w89 = w82;
- assign w89 = w83;
- assign w89 = w84;
- assign w89 = w85;
- assign w89 = w86;
- assign w89 = w87;
- assign w89 = w88;
- assign w90 = w68;
- assign w90 = w69;
- assign w90 = w70;
- assign w90 = w71;
- assign w90 = w72;
- assign w90 = w73;
- assign w90 = w74;
- assign w90 = w75;
- assign w90 = w76;
- assign w90 = w77;
- assign w90 = w78;
- assign w90 = w79;
- assign w90 = w80;
- assign w90 = w81;
- assign w90 = w82;
- assign w90 = w83;
- assign w90 = w84;
- assign w90 = w85;
- assign w90 = w86;
- assign w90 = w87;
- assign w90 = w88;
- assign w90 = w89;
- assign w91 = w68;
- assign w91 = w69;
- assign w91 = w70;
- assign w91 = w71;
- assign w91 = w72;
- assign w91 = w73;
- assign w91 = w74;
- assign w91 = w75;
- assign w91 = w76;
- assign w91 = w77;
- assign w91 = w78;
- assign w91 = w79;
- assign w91 = w80;
- assign w91 = w81;
- assign w91 = w82;
- assign w91 = w83;
- assign w91 = w84;
- assign w91 = w85;
- assign w91 = w86;
- assign w91 = w87;
- assign w91 = w88;
- assign w91 = w89;
- assign w91 = w90;
- assign w93 = w92;
- assign w95 = w94;
- assign w97 = w96;
- assign w98 = w96;
- assign w98 = w97;
- assign w99 = w96;
- assign w99 = w97;
- assign w99 = w98;
- assign w100 = w96;
- assign w100 = w97;
- assign w100 = w98;
- assign w100 = w99;
- assign w101 = w96;
- assign w101 = w97;
- assign w101 = w98;
- assign w101 = w99;
- assign w101 = w100;
- assign w102 = w96;
- assign w102 = w97;
- assign w102 = w98;
- assign w102 = w99;
- assign w102 = w100;
- assign w102 = w101;
- assign w103 = w96;
- assign w103 = w97;
- assign w103 = w98;
- assign w103 = w99;
- assign w103 = w100;
- assign w103 = w101;
- assign w103 = w102;
+ assign w113 = w112;
+ assign w114 = w112;
+ assign w114 = w113;
+ assign w115 = w112;
+ assign w115 = w113;
+ assign w115 = w114;
+ assign w116 = w112;
+ assign w116 = w113;
+ assign w116 = w114;
+ assign w116 = w115;
+ assign w117 = w112;
+ assign w117 = w113;
+ assign w117 = w114;
+ assign w117 = w115;
+ assign w117 = w116;
+ assign w118 = w112;
+ assign w118 = w113;
+ assign w118 = w114;
+ assign w118 = w115;
+ assign w118 = w116;
+ assign w118 = w117;
+ assign w119 = w112;
+ assign w119 = w113;
+ assign w119 = w114;
+ assign w119 = w115;
+ assign w119 = w116;
+ assign w119 = w117;
+ assign w119 = w118;
+ assign w120 = w112;
+ assign w120 = w113;
+ assign w120 = w114;
+ assign w120 = w115;
+ assign w120 = w116;
+ assign w120 = w117;
+ assign w120 = w118;
+ assign w120 = w119;
+ assign w121 = w112;
+ assign w121 = w113;
+ assign w121 = w114;
+ assign w121 = w115;
+ assign w121 = w116;
+ assign w121 = w117;
+ assign w121 = w118;
+ assign w121 = w119;
+ assign w121 = w120;
+ assign w122 = w112;
+ assign w122 = w113;
+ assign w122 = w114;
+ assign w122 = w115;
+ assign w122 = w116;
+ assign w122 = w117;
+ assign w122 = w118;
+ assign w122 = w119;
+ assign w122 = w120;
+ assign w122 = w121;
+ assign w123 = w112;
+ assign w123 = w113;
+ assign w123 = w114;
+ assign w123 = w115;
+ assign w123 = w116;
+ assign w123 = w117;
+ assign w123 = w118;
+ assign w123 = w119;
+ assign w123 = w120;
+ assign w123 = w121;
+ assign w123 = w122;
+ assign w124 = w112;
+ assign w124 = w113;
+ assign w124 = w114;
+ assign w124 = w115;
+ assign w124 = w116;
+ assign w124 = w117;
+ assign w124 = w118;
+ assign w124 = w119;
+ assign w124 = w120;
+ assign w124 = w121;
+ assign w124 = w122;
+ assign w124 = w123;
+ assign w125 = w112;
+ assign w125 = w113;
+ assign w125 = w114;
+ assign w125 = w115;
+ assign w125 = w116;
+ assign w125 = w117;
+ assign w125 = w118;
+ assign w125 = w119;
+ assign w125 = w120;
+ assign w125 = w121;
+ assign w125 = w122;
+ assign w125 = w123;
+ assign w125 = w124;
+ assign w126 = w112;
+ assign w126 = w113;
+ assign w126 = w114;
+ assign w126 = w115;
+ assign w126 = w116;
+ assign w126 = w117;
+ assign w126 = w118;
+ assign w126 = w119;
+ assign w126 = w120;
+ assign w126 = w121;
+ assign w126 = w122;
+ assign w126 = w123;
+ assign w126 = w124;
+ assign w126 = w125;
+ assign w127 = w112;
+ assign w127 = w113;
+ assign w127 = w114;
+ assign w127 = w115;
+ assign w127 = w116;
+ assign w127 = w117;
+ assign w127 = w118;
+ assign w127 = w119;
+ assign w127 = w120;
+ assign w127 = w121;
+ assign w127 = w122;
+ assign w127 = w123;
+ assign w127 = w124;
+ assign w127 = w125;
+ assign w127 = w126;
+ assign w128 = w112;
+ assign w128 = w113;
+ assign w128 = w114;
+ assign w128 = w115;
+ assign w128 = w116;
+ assign w128 = w117;
+ assign w128 = w118;
+ assign w128 = w119;
+ assign w128 = w120;
+ assign w128 = w121;
+ assign w128 = w122;
+ assign w128 = w123;
+ assign w128 = w124;
+ assign w128 = w125;
+ assign w128 = w126;
+ assign w128 = w127;
+ assign w129 = w112;
+ assign w129 = w113;
+ assign w129 = w114;
+ assign w129 = w115;
+ assign w129 = w116;
+ assign w129 = w117;
+ assign w129 = w118;
+ assign w129 = w119;
+ assign w129 = w120;
+ assign w129 = w121;
+ assign w129 = w122;
+ assign w129 = w123;
+ assign w129 = w124;
+ assign w129 = w125;
+ assign w129 = w126;
+ assign w129 = w127;
+ assign w129 = w128;
+ assign w130 = w112;
+ assign w130 = w113;
+ assign w130 = w114;
+ assign w130 = w115;
+ assign w130 = w116;
+ assign w130 = w117;
+ assign w130 = w118;
+ assign w130 = w119;
+ assign w130 = w120;
+ assign w130 = w121;
+ assign w130 = w122;
+ assign w130 = w123;
+ assign w130 = w124;
+ assign w130 = w125;
+ assign w130 = w126;
+ assign w130 = w127;
+ assign w130 = w128;
+ assign w130 = w129;
+ assign w131 = w112;
+ assign w131 = w113;
+ assign w131 = w114;
+ assign w131 = w115;
+ assign w131 = w116;
+ assign w131 = w117;
+ assign w131 = w118;
+ assign w131 = w119;
+ assign w131 = w120;
+ assign w131 = w121;
+ assign w131 = w122;
+ assign w131 = w123;
+ assign w131 = w124;
+ assign w131 = w125;
+ assign w131 = w126;
+ assign w131 = w127;
+ assign w131 = w128;
+ assign w131 = w129;
+ assign w131 = w130;
+ assign w132 = w112;
+ assign w132 = w113;
+ assign w132 = w114;
+ assign w132 = w115;
+ assign w132 = w116;
+ assign w132 = w117;
+ assign w132 = w118;
+ assign w132 = w119;
+ assign w132 = w120;
+ assign w132 = w121;
+ assign w132 = w122;
+ assign w132 = w123;
+ assign w132 = w124;
+ assign w132 = w125;
+ assign w132 = w126;
+ assign w132 = w127;
+ assign w132 = w128;
+ assign w132 = w129;
+ assign w132 = w130;
+ assign w132 = w131;
+ assign w133 = w112;
+ assign w133 = w113;
+ assign w133 = w114;
+ assign w133 = w115;
+ assign w133 = w116;
+ assign w133 = w117;
+ assign w133 = w118;
+ assign w133 = w119;
+ assign w133 = w120;
+ assign w133 = w121;
+ assign w133 = w122;
+ assign w133 = w123;
+ assign w133 = w124;
+ assign w133 = w125;
+ assign w133 = w126;
+ assign w133 = w127;
+ assign w133 = w128;
+ assign w133 = w129;
+ assign w133 = w130;
+ assign w133 = w131;
+ assign w133 = w132;
+ assign w134 = w112;
+ assign w134 = w113;
+ assign w134 = w114;
+ assign w134 = w115;
+ assign w134 = w116;
+ assign w134 = w117;
+ assign w134 = w118;
+ assign w134 = w119;
+ assign w134 = w120;
+ assign w134 = w121;
+ assign w134 = w122;
+ assign w134 = w123;
+ assign w134 = w124;
+ assign w134 = w125;
+ assign w134 = w126;
+ assign w134 = w127;
+ assign w134 = w128;
+ assign w134 = w129;
+ assign w134 = w130;
+ assign w134 = w131;
+ assign w134 = w132;
+ assign w134 = w133;
+ assign w135 = w112;
+ assign w135 = w113;
+ assign w135 = w114;
+ assign w135 = w115;
+ assign w135 = w116;
+ assign w135 = w117;
+ assign w135 = w118;
+ assign w135 = w119;
+ assign w135 = w120;
+ assign w135 = w121;
+ assign w135 = w122;
+ assign w135 = w123;
+ assign w135 = w124;
+ assign w135 = w125;
+ assign w135 = w126;
+ assign w135 = w127;
+ assign w135 = w128;
+ assign w135 = w129;
+ assign w135 = w130;
+ assign w135 = w131;
+ assign w135 = w132;
+ assign w135 = w133;
+ assign w135 = w134;
+ assign w136 = w112;
+ assign w136 = w113;
+ assign w136 = w114;
+ assign w136 = w115;
+ assign w136 = w116;
+ assign w136 = w117;
+ assign w136 = w118;
+ assign w136 = w119;
+ assign w136 = w120;
+ assign w136 = w121;
+ assign w136 = w122;
+ assign w136 = w123;
+ assign w136 = w124;
+ assign w136 = w125;
+ assign w136 = w126;
+ assign w136 = w127;
+ assign w136 = w128;
+ assign w136 = w129;
+ assign w136 = w130;
+ assign w136 = w131;
+ assign w136 = w132;
+ assign w136 = w133;
+ assign w136 = w134;
+ assign w136 = w135;
+ assign w137 = w112;
+ assign w137 = w113;
+ assign w137 = w114;
+ assign w137 = w115;
+ assign w137 = w116;
+ assign w137 = w117;
+ assign w137 = w118;
+ assign w137 = w119;
+ assign w137 = w120;
+ assign w137 = w121;
+ assign w137 = w122;
+ assign w137 = w123;
+ assign w137 = w124;
+ assign w137 = w125;
+ assign w137 = w126;
+ assign w137 = w127;
+ assign w137 = w128;
+ assign w137 = w129;
+ assign w137 = w130;
+ assign w137 = w131;
+ assign w137 = w132;
+ assign w137 = w133;
+ assign w137 = w134;
+ assign w137 = w135;
+ assign w137 = w136;
+ assign w138 = w112;
+ assign w138 = w113;
+ assign w138 = w114;
+ assign w138 = w115;
+ assign w138 = w116;
+ assign w138 = w117;
+ assign w138 = w118;
+ assign w138 = w119;
+ assign w138 = w120;
+ assign w138 = w121;
+ assign w138 = w122;
+ assign w138 = w123;
+ assign w138 = w124;
+ assign w138 = w125;
+ assign w138 = w126;
+ assign w138 = w127;
+ assign w138 = w128;
+ assign w138 = w129;
+ assign w138 = w130;
+ assign w138 = w131;
+ assign w138 = w132;
+ assign w138 = w133;
+ assign w138 = w134;
+ assign w138 = w135;
+ assign w138 = w136;
+ assign w138 = w137;
+ assign w139 = w112;
+ assign w139 = w113;
+ assign w139 = w114;
+ assign w139 = w115;
+ assign w139 = w116;
+ assign w139 = w117;
+ assign w139 = w118;
+ assign w139 = w119;
+ assign w139 = w120;
+ assign w139 = w121;
+ assign w139 = w122;
+ assign w139 = w123;
+ assign w139 = w124;
+ assign w139 = w125;
+ assign w139 = w126;
+ assign w139 = w127;
+ assign w139 = w128;
+ assign w139 = w129;
+ assign w139 = w130;
+ assign w139 = w131;
+ assign w139 = w132;
+ assign w139 = w133;
+ assign w139 = w134;
+ assign w139 = w135;
+ assign w139 = w136;
+ assign w139 = w137;
+ assign w139 = w138;
+ assign w140 = w112;
+ assign w140 = w113;
+ assign w140 = w114;
+ assign w140 = w115;
+ assign w140 = w116;
+ assign w140 = w117;
+ assign w140 = w118;
+ assign w140 = w119;
+ assign w140 = w120;
+ assign w140 = w121;
+ assign w140 = w122;
+ assign w140 = w123;
+ assign w140 = w124;
+ assign w140 = w125;
+ assign w140 = w126;
+ assign w140 = w127;
+ assign w140 = w128;
+ assign w140 = w129;
+ assign w140 = w130;
+ assign w140 = w131;
+ assign w140 = w132;
+ assign w140 = w133;
+ assign w140 = w134;
+ assign w140 = w135;
+ assign w140 = w136;
+ assign w140 = w137;
+ assign w140 = w138;
+ assign w140 = w139;
+ assign w141 = w112;
+ assign w141 = w113;
+ assign w141 = w114;
+ assign w141 = w115;
+ assign w141 = w116;
+ assign w141 = w117;
+ assign w141 = w118;
+ assign w141 = w119;
+ assign w141 = w120;
+ assign w141 = w121;
+ assign w141 = w122;
+ assign w141 = w123;
+ assign w141 = w124;
+ assign w141 = w125;
+ assign w141 = w126;
+ assign w141 = w127;
+ assign w141 = w128;
+ assign w141 = w129;
+ assign w141 = w130;
+ assign w141 = w131;
+ assign w141 = w132;
+ assign w141 = w133;
+ assign w141 = w134;
+ assign w141 = w135;
+ assign w141 = w136;
+ assign w141 = w137;
+ assign w141 = w138;
+ assign w141 = w139;
+ assign w141 = w140;
+ assign w142 = w112;
+ assign w142 = w113;
+ assign w142 = w114;
+ assign w142 = w115;
+ assign w142 = w116;
+ assign w142 = w117;
+ assign w142 = w118;
+ assign w142 = w119;
+ assign w142 = w120;
+ assign w142 = w121;
+ assign w142 = w122;
+ assign w142 = w123;
+ assign w142 = w124;
+ assign w142 = w125;
+ assign w142 = w126;
+ assign w142 = w127;
+ assign w142 = w128;
+ assign w142 = w129;
+ assign w142 = w130;
+ assign w142 = w131;
+ assign w142 = w132;
+ assign w142 = w133;
+ assign w142 = w134;
+ assign w142 = w135;
+ assign w142 = w136;
+ assign w142 = w137;
+ assign w142 = w138;
+ assign w142 = w139;
+ assign w142 = w140;
+ assign w142 = w141;
+ assign w143 = w112;
+ assign w143 = w113;
+ assign w143 = w114;
+ assign w143 = w115;
+ assign w143 = w116;
+ assign w143 = w117;
+ assign w143 = w118;
+ assign w143 = w119;
+ assign w143 = w120;
+ assign w143 = w121;
+ assign w143 = w122;
+ assign w143 = w123;
+ assign w143 = w124;
+ assign w143 = w125;
+ assign w143 = w126;
+ assign w143 = w127;
+ assign w143 = w128;
+ assign w143 = w129;
+ assign w143 = w130;
+ assign w143 = w131;
+ assign w143 = w132;
+ assign w143 = w133;
+ assign w143 = w134;
+ assign w143 = w135;
+ assign w143 = w136;
+ assign w143 = w137;
+ assign w143 = w138;
+ assign w143 = w139;
+ assign w143 = w140;
+ assign w143 = w141;
+ assign w143 = w142;
+ assign w144 = w112;
+ assign w144 = w113;
+ assign w144 = w114;
+ assign w144 = w115;
+ assign w144 = w116;
+ assign w144 = w117;
+ assign w144 = w118;
+ assign w144 = w119;
+ assign w144 = w120;
+ assign w144 = w121;
+ assign w144 = w122;
+ assign w144 = w123;
+ assign w144 = w124;
+ assign w144 = w125;
+ assign w144 = w126;
+ assign w144 = w127;
+ assign w144 = w128;
+ assign w144 = w129;
+ assign w144 = w130;
+ assign w144 = w131;
+ assign w144 = w132;
+ assign w144 = w133;
+ assign w144 = w134;
+ assign w144 = w135;
+ assign w144 = w136;
+ assign w144 = w137;
+ assign w144 = w138;
+ assign w144 = w139;
+ assign w144 = w140;
+ assign w144 = w141;
+ assign w144 = w142;
+ assign w144 = w143;
+ assign w145 = w112;
+ assign w145 = w113;
+ assign w145 = w114;
+ assign w145 = w115;
+ assign w145 = w116;
+ assign w145 = w117;
+ assign w145 = w118;
+ assign w145 = w119;
+ assign w145 = w120;
+ assign w145 = w121;
+ assign w145 = w122;
+ assign w145 = w123;
+ assign w145 = w124;
+ assign w145 = w125;
+ assign w145 = w126;
+ assign w145 = w127;
+ assign w145 = w128;
+ assign w145 = w129;
+ assign w145 = w130;
+ assign w145 = w131;
+ assign w145 = w132;
+ assign w145 = w133;
+ assign w145 = w134;
+ assign w145 = w135;
+ assign w145 = w136;
+ assign w145 = w137;
+ assign w145 = w138;
+ assign w145 = w139;
+ assign w145 = w140;
+ assign w145 = w141;
+ assign w145 = w142;
+ assign w145 = w143;
+ assign w145 = w144;
+ assign w146 = w112;
+ assign w146 = w113;
+ assign w146 = w114;
+ assign w146 = w115;
+ assign w146 = w116;
+ assign w146 = w117;
+ assign w146 = w118;
+ assign w146 = w119;
+ assign w146 = w120;
+ assign w146 = w121;
+ assign w146 = w122;
+ assign w146 = w123;
+ assign w146 = w124;
+ assign w146 = w125;
+ assign w146 = w126;
+ assign w146 = w127;
+ assign w146 = w128;
+ assign w146 = w129;
+ assign w146 = w130;
+ assign w146 = w131;
+ assign w146 = w132;
+ assign w146 = w133;
+ assign w146 = w134;
+ assign w146 = w135;
+ assign w146 = w136;
+ assign w146 = w137;
+ assign w146 = w138;
+ assign w146 = w139;
+ assign w146 = w140;
+ assign w146 = w141;
+ assign w146 = w142;
+ assign w146 = w143;
+ assign w146 = w144;
+ assign w146 = w145;
+ assign w147 = w112;
+ assign w147 = w113;
+ assign w147 = w114;
+ assign w147 = w115;
+ assign w147 = w116;
+ assign w147 = w117;
+ assign w147 = w118;
+ assign w147 = w119;
+ assign w147 = w120;
+ assign w147 = w121;
+ assign w147 = w122;
+ assign w147 = w123;
+ assign w147 = w124;
+ assign w147 = w125;
+ assign w147 = w126;
+ assign w147 = w127;
+ assign w147 = w128;
+ assign w147 = w129;
+ assign w147 = w130;
+ assign w147 = w131;
+ assign w147 = w132;
+ assign w147 = w133;
+ assign w147 = w134;
+ assign w147 = w135;
+ assign w147 = w136;
+ assign w147 = w137;
+ assign w147 = w138;
+ assign w147 = w139;
+ assign w147 = w140;
+ assign w147 = w141;
+ assign w147 = w142;
+ assign w147 = w143;
+ assign w147 = w144;
+ assign w147 = w145;
+ assign w147 = w146;
+ assign w148 = w112;
+ assign w148 = w113;
+ assign w148 = w114;
+ assign w148 = w115;
+ assign w148 = w116;
+ assign w148 = w117;
+ assign w148 = w118;
+ assign w148 = w119;
+ assign w148 = w120;
+ assign w148 = w121;
+ assign w148 = w122;
+ assign w148 = w123;
+ assign w148 = w124;
+ assign w148 = w125;
+ assign w148 = w126;
+ assign w148 = w127;
+ assign w148 = w128;
+ assign w148 = w129;
+ assign w148 = w130;
+ assign w148 = w131;
+ assign w148 = w132;
+ assign w148 = w133;
+ assign w148 = w134;
+ assign w148 = w135;
+ assign w148 = w136;
+ assign w148 = w137;
+ assign w148 = w138;
+ assign w148 = w139;
+ assign w148 = w140;
+ assign w148 = w141;
+ assign w148 = w142;
+ assign w148 = w143;
+ assign w148 = w144;
+ assign w148 = w145;
+ assign w148 = w146;
+ assign w148 = w147;
+ assign w150 = w149;
+ assign w151 = w149;
+ assign w151 = w150;
+ assign w152 = w149;
+ assign w152 = w150;
+ assign w152 = w151;
+ assign w153 = w149;
+ assign w153 = w150;
+ assign w153 = w151;
+ assign w153 = w152;
+ assign w154 = w149;
+ assign w154 = w150;
+ assign w154 = w151;
+ assign w154 = w152;
+ assign w154 = w153;
+ assign w155 = w149;
+ assign w155 = w150;
+ assign w155 = w151;
+ assign w155 = w152;
+ assign w155 = w153;
+ assign w155 = w154;
+ assign w156 = w149;
+ assign w156 = w150;
+ assign w156 = w151;
+ assign w156 = w152;
+ assign w156 = w153;
+ assign w156 = w154;
+ assign w156 = w155;
+ assign w157 = w149;
+ assign w157 = w150;
+ assign w157 = w151;
+ assign w157 = w152;
+ assign w157 = w153;
+ assign w157 = w154;
+ assign w157 = w155;
+ assign w157 = w156;
+ assign w159 = w158;
+ assign w160 = w158;
+ assign w160 = w159;
+ assign w162 = w161;
+ assign w188 = w187;
+ assign w189 = w187;
+ assign w189 = w188;
+ assign w190 = w187;
+ assign w190 = w188;
+ assign w190 = w189;
+ assign w191 = w187;
+ assign w191 = w188;
+ assign w191 = w189;
+ assign w191 = w190;
+ assign w193 = w192;
+ assign w194 = w192;
+ assign w194 = w193;
+ assign w196 = w195;
+ assign w197 = w195;
+ assign w197 = w196;
+ assign w198 = w195;
+ assign w198 = w196;
+ assign w198 = w197;
+ assign w200 = w199;
  vb717c8 v6d4411 (
   .vcc8c7c(w27),
-  .v9e11d8(w92),
-  .v7e15b2(w94),
-  .v75197e(w96)
+  .v75197e(w149),
+  .v9e11d8(w158),
+  .v7e15b2(w161)
  );
  vb9ce14 va82d96 (
   .v6a1cbe(w24),
   .v2d03ef(w25),
   .v6a2ebd(w26),
-  .v7114a9(w68)
+  .v7114a9(w112)
  );
  v01f76a v9fcb7d (
   .va25221(w4),
@@ -543,117 +1067,117 @@ module main #(
   .vf22350(w9),
   .vd94b05(w10),
   .vd720df(w11),
-  .v62ce62(w69),
-  .vded3a6(w107),
-  .v9c96ea(w113)
+  .v62ce62(w113),
+  .vded3a6(w166),
+  .v9c96ea(w172)
  );
  vf05b5a #(
   .v16d6b8(p0)
  ) v6a713d (
   .v18e78c(w1),
-  .v320bf6(w92)
+  .v320bf6(w159)
  );
  vfa0a5e v5f4467 (
-  .v41eb95(w70),
-  .v565097(w96),
-  .va632a5(w108),
-  .vf892a0(w117)
+  .v41eb95(w114),
+  .v565097(w150),
+  .va632a5(w167),
+  .vf892a0(w176)
  );
  vfa0a5e v491780 (
-  .v41eb95(w71),
-  .v565097(w97),
-  .va632a5(w105),
-  .vf892a0(w118)
+  .v41eb95(w115),
+  .v565097(w151),
+  .va632a5(w164),
+  .vf892a0(w177)
  );
  vfa0a5e v06be19 (
-  .v41eb95(w72),
-  .v565097(w103),
-  .vf892a0(w125),
-  .va632a5(w127)
+  .v41eb95(w116),
+  .v565097(w157),
+  .vf892a0(w184),
+  .va632a5(w186)
  );
  vfa0a5e vd3d6e9 (
-  .v41eb95(w73),
-  .v565097(w99),
-  .va632a5(w110),
-  .vf892a0(w116)
+  .v41eb95(w117),
+  .v565097(w153),
+  .va632a5(w169),
+  .vf892a0(w175)
  );
  vfa0a5e v8c2d70 (
-  .v41eb95(w74),
-  .v565097(w102),
-  .vf892a0(w122),
-  .va632a5(w126)
+  .v41eb95(w118),
+  .v565097(w156),
+  .vf892a0(w181),
+  .va632a5(w185)
  );
  vfa0a5e ve80146 (
-  .v41eb95(w75),
-  .v565097(w98),
-  .va632a5(w114),
-  .vf892a0(w119)
+  .v41eb95(w119),
+  .v565097(w152),
+  .va632a5(w173),
+  .vf892a0(w178)
  );
  vfa0a5e v914d0d (
-  .v41eb95(w76),
-  .v565097(w100),
-  .va632a5(w121),
-  .vf892a0(w123)
+  .v41eb95(w120),
+  .v565097(w154),
+  .va632a5(w180),
+  .vf892a0(w182)
  );
  vfa0a5e v853f0b (
-  .v41eb95(w77),
-  .v565097(w101),
-  .va632a5(w120),
-  .vf892a0(w124)
+  .v41eb95(w121),
+  .v565097(w155),
+  .va632a5(w179),
+  .vf892a0(w183)
  );
  v9d1e02 vba1673 (
   .v27dec4(w1),
-  .vdd3098(w94),
-  .ve48246(w116),
-  .vd53c9c(w117),
-  .v8b3e73(w118),
-  .v030ad0(w119)
+  .vdd3098(w161),
+  .ve48246(w175),
+  .vd53c9c(w176),
+  .v8b3e73(w177),
+  .v030ad0(w178)
  );
  vf05b5a #(
   .v16d6b8(p2)
  ) v85f66e (
   .v18e78c(w3),
-  .v320bf6(w93)
+  .v320bf6(w160)
  );
  v9d1e02 v02bbff (
   .v27dec4(w3),
-  .vdd3098(w95),
-  .ve48246(w122),
-  .v8b3e73(w123),
-  .vd53c9c(w124),
-  .v030ad0(w125)
+  .vdd3098(w162),
+  .ve48246(w181),
+  .v8b3e73(w182),
+  .vd53c9c(w183),
+  .v030ad0(w184)
  );
  v0fa073 v263c78 (
-  .v3f8943(w107),
-  .v5ab9a6(w108),
-  .vacdbb0(w111)
+  .v3f8943(w166),
+  .v5ab9a6(w167),
+  .vacdbb0(w170)
  );
  v0fa073 v66c62b (
-  .v3f8943(w113),
-  .v5ab9a6(w114),
-  .vacdbb0(w115)
+  .v3f8943(w172),
+  .v5ab9a6(w173),
+  .vacdbb0(w174)
  );
  v2a562b #(
   .vb36a78(p12)
  ) va63429 (
   .vfde47f(w10),
-  .v851180(w111)
+  .v851180(w170)
  );
  v2a562b #(
   .vb36a78(p21)
  ) v35df5a (
   .vfde47f(w11),
-  .v851180(w115)
+  .v851180(w174)
  );
  v0fa073 v92e6cd (
-  .v3f8943(w104),
-  .v5ab9a6(w105),
-  .vacdbb0(w106)
+  .v3f8943(w163),
+  .v5ab9a6(w164),
+  .vacdbb0(w165)
  );
  v0fa073 v2f167e (
-  .v3f8943(w109),
-  .v5ab9a6(w110),
-  .vacdbb0(w112)
+  .v3f8943(w168),
+  .v5ab9a6(w169),
+  .vacdbb0(w171)
  );
  v01f76a v6b7d7d (
   .va25221(w13),
@@ -664,167 +1188,347 @@ module main #(
   .vf22350(w18),
   .vd94b05(w19),
   .vd720df(w20),
-  .v62ce62(w78),
-  .vded3a6(w104),
-  .v9c96ea(w109)
+  .v62ce62(w122),
+  .vded3a6(w163),
+  .v9c96ea(w168)
  );
  v2a562b #(
   .vb36a78(p23)
  ) v0208f3 (
   .vfde47f(w19),
-  .v851180(w106)
+  .v851180(w165)
  );
  v2a562b #(
   .vb36a78(p22)
  ) v4a89f2 (
   .vfde47f(w20),
-  .v851180(w112)
+  .v851180(w171)
  );
  v89d234 v37ee8e (
   .v39f831(w25),
   .vf892a0(w26),
   .vb1c024(w27),
-  .v41eb95(w79)
+  .v41eb95(w123)
  );
  vb0ff9e v6c9bab (
-  .vb277aa(w29),
-  .v521369(w36),
-  .v52ffe5(w40),
-  .vdd2008(w53),
-  .v2d4dc0(w80)
+  .v521369(w29),
+  .vdd2008(w42),
+  .vb277aa(w58),
+  .v52ffe5(w87),
+  .v2d4dc0(w124)
  );
  vb0ff9e v915712 (
-  .vb277aa(w31),
-  .v521369(w37),
-  .v52ffe5(w41),
-  .vdd2008(w51),
-  .v2d4dc0(w81)
+  .v521369(w30),
+  .vdd2008(w40),
+  .vb277aa(w64),
+  .v52ffe5(w88),
+  .v2d4dc0(w125)
  );
  vb0ff9e v56d098 (
-  .vb277aa(w33),
-  .v521369(w38),
-  .v52ffe5(w42),
-  .vdd2008(w55),
-  .v2d4dc0(w82)
+  .v521369(w31),
+  .vdd2008(w44),
+  .vb277aa(w61),
+  .v52ffe5(w89),
+  .v2d4dc0(w126)
  );
  vb0ff9e v763215 (
-  .vb277aa(w35),
-  .v521369(w39),
-  .v52ffe5(w43),
-  .vdd2008(w48),
-  .v2d4dc0(w83)
+  .v521369(w32),
+  .vdd2008(w37),
+  .vb277aa(w67),
+  .v52ffe5(w90),
+  .v2d4dc0(w127)
  );
  v370a9c #(
-  .vb36a78(p44)
+  .vb36a78(p33)
  ) vcb46ab (
-  .vfde47f(w56),
-  .v851180(w120)
+  .vfde47f(w45),
+  .v851180(w179)
  );
  v370a9c #(
-  .vb36a78(p45)
+  .vb36a78(p34)
  ) v05081e (
-  .vfde47f(w63),
-  .v851180(w127)
+  .vfde47f(w52),
+  .v851180(w186)
  );
  v370a9c #(
-  .vb36a78(p46)
+  .vb36a78(p35)
  ) v03316e (
-  .vfde47f(w60),
-  .v851180(w121)
+  .vfde47f(w49),
+  .v851180(w180)
  );
  v370a9c #(
-  .vb36a78(p47)
+  .vb36a78(p36)
  ) v4fd5a8 (
-  .vfde47f(w66),
-  .v851180(w126)
+  .vfde47f(w55),
+  .v851180(w185)
  );
  vebfed3 #(
   .vfb06ae(p28)
  ) ve30416 (
-  .v2a8434(w29),
-  .vac0eb2(w84)
- );
- vebfed3 #(
-  .vfb06ae(p30)
- ) v99fbd5 (
-  .v2a8434(w31),
-  .vac0eb2(w85)
- );
- vebfed3 #(
-  .vfb06ae(p32)
- ) va3ad61 (
-  .v2a8434(w33),
-  .vac0eb2(w86)
- );
- vebfed3 #(
-  .vfb06ae(p34)
- ) vd0712c (
-  .v2a8434(w35),
-  .vac0eb2(w87)
+  .v2a8434(w57),
+  .vac0eb2(w128)
  );
  v725b7e vf14d0c (
-  .v9fb85f(w36)
+  .v9fb85f(w29)
  );
  v725b7e va10650 (
-  .v9fb85f(w37)
+  .v9fb85f(w30)
  );
  v725b7e v1e23de (
-  .v9fb85f(w38)
+  .v9fb85f(w31)
  );
  v725b7e v902008 (
-  .v9fb85f(w39)
+  .v9fb85f(w32)
  );
  v7d7474 #(
-  .v8d305c(p49)
+  .v8d305c(p38)
  ) v096197 (
-  .v9c083a(w48),
-  .ve41da3(w67)
+  .v9c083a(w37),
+  .ve41da3(w56)
  );
  v7d7474 #(
-  .v8d305c(p50)
+  .v8d305c(p39)
  ) v77dbc7 (
-  .v9c083a(w51),
-  .ve41da3(w64)
+  .v9c083a(w40),
+  .ve41da3(w53)
  );
  v7d7474 #(
-  .v8d305c(p52)
+  .v8d305c(p41)
  ) vf7d37b (
-  .v9c083a(w53),
-  .ve41da3(w57)
+  .v9c083a(w42),
+  .ve41da3(w46)
  );
  v7d7474 #(
-  .v8d305c(p54)
+  .v8d305c(p43)
  ) ve459dc (
-  .v9c083a(w55),
-  .ve41da3(w61)
+  .v9c083a(w44),
+  .ve41da3(w50)
  );
  vc97936 #(
-  .v89e8bb(p58)
+  .v89e8bb(p47)
  ) v628929 (
-  .vcf84db(w56),
-  .v61ff7b(w57),
-  .v6dda25(w88)
+  .vcf84db(w45),
+  .v61ff7b(w46),
+  .v6dda25(w129)
  );
  vc97936 #(
-  .v89e8bb(p59)
+  .v89e8bb(p48)
  ) vaeb11f (
-  .vcf84db(w60),
-  .v61ff7b(w61),
-  .v6dda25(w89)
+  .vcf84db(w49),
+  .v61ff7b(w50),
+  .v6dda25(w130)
  );
  vc97936 #(
-  .v89e8bb(p62)
+  .v89e8bb(p51)
  ) v1512e6 (
-  .vcf84db(w63),
-  .v61ff7b(w64),
-  .v6dda25(w90)
+  .vcf84db(w52),
+  .v61ff7b(w53),
+  .v6dda25(w131)
  );
  vc97936 #(
-  .v89e8bb(p65)
+  .v89e8bb(p54)
  ) vdec873 (
-  .vcf84db(w66),
-  .v61ff7b(w67),
-  .v6dda25(w91)
+  .vcf84db(w55),
+  .v61ff7b(w56),
+  .v6dda25(w132)
+ );
+ v7ebc90 v886c31 (
+  .v0e28cb(w57),
+  .vcbab45(w58),
+  .v3ca442(w187)
+ );
+ vebfed3 #(
+  .vfb06ae(p59)
+ ) vc6d0ae (
+  .v2a8434(w60),
+  .vac0eb2(w133)
+ );
+ v7ebc90 v122ad7 (
+  .v0e28cb(w60),
+  .vcbab45(w61),
+  .v3ca442(w192)
+ );
+ vebfed3 #(
+  .vfb06ae(p62)
+ ) v539320 (
+  .v2a8434(w63),
+  .vac0eb2(w134)
+ );
+ v7ebc90 vddaedb (
+  .v0e28cb(w63),
+  .vcbab45(w64),
+  .v3ca442(w196)
+ );
+ vebfed3 #(
+  .vfb06ae(p65)
+ ) v5ae51a (
+  .v2a8434(w66),
+  .vac0eb2(w135)
+ );
+ v7ebc90 v25e624 (
+  .v0e28cb(w66),
+  .vcbab45(w67),
+  .v3ca442(w199)
+ );
+ v725b7e vba1eda (
+  .v9fb85f(w187)
+ );
+ ve13653 vfd56a1 (
+  .vfa6171(w188),
+  .v76af38(w193),
+  .v7cacc4(w195),
+  .veaecb5(w200)
+ );
+ vebfed3 #(
+  .vfb06ae(p68)
+ ) v1c83aa (
+  .v2a8434(w74),
+  .vac0eb2(w136)
+ );
+ v0a4cbd #(
+  .v5e93d8(p69)
+ ) vbd1867 (
+  .v192113(w70),
+  .v1e08cd(w71),
+  .v83d2df(w73),
+  .v3a9962(w137)
+ );
+ v725b7e va64121 (
+  .v9fb85f(w70)
+ );
+ vca7316 #(
+  .v6b316b(p72)
+ ) v3be51e (
+  .v40cb98(w71),
+  .v18e78c(w195)
+ );
+ v7ebc90 vf18a5d (
+  .vcbab45(w73),
+  .v0e28cb(w74),
+  .v3ca442(w189)
+ );
+ vf6999a v137f00 (
+  .vfa6171(w75),
+  .v7b40f2(w77),
+  .v76af38(w190),
+  .v7cacc4(w197)
+ );
+ v0a4cbd #(
+  .v5e93d8(p76)
+ ) v6d0ee3 (
+  .v83d2df(w77),
+  .v192113(w78),
+  .v1e08cd(w79),
+  .v3a9962(w138)
+ );
+ v725b7e vbdc891 (
+  .v9fb85f(w78)
+ );
+ vca7316 #(
+  .v6b316b(p80)
+ ) v0476de (
+  .v40cb98(w79),
+  .v18e78c(w192)
+ );
+ v0a4cbd #(
+  .v5e93d8(p81)
+ ) vb8d7b7 (
+  .v192113(w82),
+  .v1e08cd(w83),
+  .v83d2df(w85),
+  .v3a9962(w139)
+ );
+ v725b7e vc51d74 (
+  .v9fb85f(w82)
+ );
+ vca7316 #(
+  .v6b316b(p84)
+ ) vd4be7c (
+  .v40cb98(w83),
+  .v18e78c(w199)
+ );
+ ve13653 v65164f (
+  .v7b40f2(w85),
+  .vfa6171(w86),
+  .veaecb5(w191),
+  .v7cacc4(w194),
+  .v76af38(w198)
+ );
+ v0e64bc #(
+  .v207e0d(p91)
+ ) v38bad8 (
+  .v8337bc(w93),
+  .v531e20(w140)
+ );
+ v29e716 va2e3fc (
+  .v030ad0(w92),
+  .vc5514b(w93),
+  .vf1aa84(w94),
+  .vb192d0(w96),
+  .v27dec4(w98),
+  .v1120f0(w100),
+  .v109d95(w102),
+  .v08eba1(w104),
+  .v4bab7f(w106),
+  .v2f1105(w108)
+ );
+ v0e64bc #(
+  .v207e0d(p95)
+ ) vd418ea (
+  .v8337bc(w94),
+  .v531e20(w141)
+ );
+ v0e64bc #(
+  .v207e0d(p97)
+ ) vb51e9f (
+  .v8337bc(w96),
+  .v531e20(w142)
+ );
+ v0e64bc #(
+  .v207e0d(p99)
+ ) v9a38f6 (
+  .v8337bc(w98),
+  .v531e20(w143)
+ );
+ v0e64bc #(
+  .v207e0d(p101)
+ ) v2b94e2 (
+  .v8337bc(w100),
+  .v531e20(w144)
+ );
+ v0e64bc #(
+  .v207e0d(p103)
+ ) vb8e037 (
+  .v8337bc(w102),
+  .v531e20(w145)
+ );
+ v0e64bc #(
+  .v207e0d(p105)
+ ) vbb91be (
+  .v8337bc(w104),
+  .v531e20(w146)
+ );
+ v0e64bc #(
+  .v207e0d(p107)
+ ) v9d02bf (
+  .v8337bc(w106),
+  .v531e20(w147)
+ );
+ v51b7b3 vb6a2ef (
+  .vbd1561(w108),
+  .vf892a0(w110),
+  .v406ca2(w111),
+  .v41eb95(w148)
+ );
+ vf05b5a #(
+  .v16d6b8(p109)
+ ) v33ee76 (
+  .v18e78c(w110),
+  .v320bf6(w158)
+ );
+ v0fa073 vcac609 (
+  .vacdbb0(w111),
+  .v5ab9a6(w149)
  );
  assign vinit = 8'b00000000;
 endmodule
@@ -3079,4 +3783,671 @@ module v359a55_ve4e0df (
  end
  
  
+endmodule
+//---- Top entity
+module ve13653 (
+ input vfa6171,
+ input v7cacc4,
+ input v76af38,
+ input veaecb5,
+ output v7b40f2
+);
+ wire w0;
+ wire w1;
+ wire w2;
+ wire w3;
+ wire w4;
+ wire w5;
+ wire w6;
+ assign w1 = vfa6171;
+ assign w2 = v7cacc4;
+ assign w3 = v76af38;
+ assign v7b40f2 = w5;
+ assign w6 = veaecb5;
+ vb2090f v85500b (
+  .vcbab45(w0),
+  .v0e28cb(w1),
+  .v3ca442(w2)
+ );
+ vb2090f v241483 (
+  .v0e28cb(w0),
+  .v3ca442(w3),
+  .vcbab45(w4)
+ );
+ vb2090f v9eb830 (
+  .v0e28cb(w4),
+  .vcbab45(w5),
+  .v3ca442(w6)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- AND4
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- 4 inputs AND
+//---------------------------------------------------
+//---- Top entity
+module vb2090f (
+ input v0e28cb,
+ input v3ca442,
+ output vcbab45
+);
+ wire w0;
+ wire w1;
+ wire w2;
+ assign w0 = v0e28cb;
+ assign w1 = v3ca442;
+ assign vcbab45 = w2;
+ vb2090f_vf4938a vf4938a (
+  .a(w0),
+  .b(w1),
+  .c(w2)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- AND
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- Puerta AND
+//---------------------------------------------------
+
+module vb2090f_vf4938a (
+ input a,
+ input b,
+ output c
+);
+ //-- Puerta AND
+ 
+ //-- module and (input wire a, input wire b,
+ //--             output wire c);
+ 
+ assign c = a & b;
+ 
+ //-- endmodule
+endmodule
+//---- Top entity
+module v0a4cbd #(
+ parameter vc03756 = "vc03756.list",
+ parameter v5e93d8 = 255,
+ parameter vc70f60 = 0,
+ parameter v8e5d55 = 1,
+ parameter v2b8e3d = -1
+) (
+ input v3a9962,
+ input v192113,
+ input v83d2df,
+ output [7:0] v1e08cd
+);
+ localparam p1 = v8e5d55;
+ localparam p3 = v2b8e3d;
+ localparam p8 = vc03756;
+ localparam p10 = v5e93d8;
+ localparam p17 = vc70f60;
+ localparam p18 = vc70f60;
+ wire [0:7] w0;
+ wire [0:7] w2;
+ wire [0:7] w4;
+ wire [0:7] w5;
+ wire [0:7] w6;
+ wire w7;
+ wire [0:2] w9;
+ wire [0:7] w11;
+ wire w12;
+ wire [0:7] w13;
+ wire w14;
+ wire [0:7] w15;
+ wire w16;
+ wire w19;
+ wire w20;
+ wire w21;
+ wire w22;
+ assign w14 = v83d2df;
+ assign v1e08cd = w15;
+ assign w16 = v3a9962;
+ assign w19 = v192113;
+ assign w20 = v192113;
+ assign w4 = w0;
+ assign w11 = w0;
+ assign w11 = w4;
+ assign w13 = w0;
+ assign w13 = w4;
+ assign w13 = w11;
+ assign w15 = w0;
+ assign w15 = w4;
+ assign w15 = w11;
+ assign w15 = w13;
+ assign w20 = w19;
+ v89d234 #(
+  .v422d28(p18)
+ ) vbc8ab0 (
+  .vb1c024(w0),
+  .v39f831(w6),
+  .vf892a0(w7),
+  .v41eb95(w16)
+ );
+ v359a55 v36ffe7 (
+  .v02d898(w2),
+  .vd6b984(w5),
+  .vf24dba(w6),
+  .v50d6c6(w19)
+ );
+ v7d7474 #(
+  .v8d305c(p1)
+ ) vf1d695 (
+  .ve41da3(w0),
+  .v9c083a(w2)
+ );
+ v7d7474 #(
+  .v8d305c(p3)
+ ) v805790 (
+  .ve41da3(w4),
+  .v9c083a(w5)
+ );
+ vb2090f v059640 (
+  .vcbab45(w7),
+  .v3ca442(w12),
+  .v0e28cb(w14)
+ );
+ v590ad1 #(
+  .vb36a78(p8)
+ ) v40cba3 (
+  .v851180(w9),
+  .vfde47f(w12)
+ );
+ vd9c150 v8588d7 (
+  .v0fc56f(w9),
+  .v03aaf0(w20),
+  .v1311d2(w21),
+  .vee8a83(w22)
+ );
+ vca7316 #(
+  .v6b316b(p10)
+ ) vc98e07 (
+  .v40cb98(w11),
+  .v18e78c(w21)
+ );
+ vca7316 #(
+  .v6b316b(p17)
+ ) v24eda4 (
+  .v40cb98(w13),
+  .v18e78c(w22)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- cont-up-down-limit
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- Contador ascendente/descendente con límites
+//---------------------------------------------------
+//---- Top entity
+module v590ad1 #(
+ parameter vb36a78 = "vb36a78.list"
+) (
+ input [2:0] v851180,
+ output [0:0] vfde47f
+);
+ localparam p0 = vb36a78;
+ wire [0:2] w1;
+ wire [0:0] w2;
+ assign w1 = v851180;
+ assign vfde47f = w2;
+ v590ad1_v361fe9 #(
+  .DATA(p0)
+ ) v361fe9 (
+  .i(w1),
+  .q(w2)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- mi-tabla3-1
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- Circuito combinacional de 3 entradas y 1 salidas
+//---------------------------------------------------
+
+module v590ad1_v361fe9 #(
+ parameter DATA = 0
+) (
+ input [2:0] i,
+ output [0:0] q
+);
+ 
+ //-- Bits del bus de entrada
+ localparam N = 3;
+ 
+ //-- Bits del bus de salida
+ localparam M = 1;
+ 
+ //-- Calcular tamaño de la tabla
+ //-- (filas) segun los bits de entrada
+ localparam TAM = 2 ** N;
+ 
+ //-- Definición de la tabla
+ //-- Tabla de TAM elementos de M bits
+ reg [M-1:0] tabla[0:TAM-1];
+ 
+ //-- Read the table
+ assign q = tabla[i];
+ 
+ //-- Init table from DATA parameters
+ initial begin
+   if (DATA) $readmemb(DATA, tabla);
+ end
+endmodule
+//---- Top entity
+module vd9c150 (
+ input v1311d2,
+ input vee8a83,
+ input v03aaf0,
+ output [2:0] v0fc56f
+);
+ wire w0;
+ wire w1;
+ wire w2;
+ wire [0:2] w3;
+ assign w0 = vee8a83;
+ assign w1 = v03aaf0;
+ assign w2 = v1311d2;
+ assign v0fc56f = w3;
+ vd9c150_v9a2a06 v9a2a06 (
+  .i1(w0),
+  .i0(w1),
+  .i2(w2),
+  .o(w3)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- Agregador-bus
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- Agregador de 3 cables en un bus de 3-bits
+//---------------------------------------------------
+
+module vd9c150_v9a2a06 (
+ input i2,
+ input i1,
+ input i0,
+ output [2:0] o
+);
+ assign o = {i2, i1, i0};
+ 
+endmodule
+//---- Top entity
+module vca7316 #(
+ parameter v6b316b = 0
+) (
+ input [7:0] v40cb98,
+ output v18e78c
+);
+ localparam p1 = v6b316b;
+ wire w0;
+ wire [0:7] w2;
+ assign v18e78c = w0;
+ assign w2 = v40cb98;
+ vca7316_vd75681 #(
+  .K(p1)
+ ) vd75681 (
+  .eq(w0),
+  .a(w2)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- Comparador
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- Comparador de un operando de 8 bits. Se compara si el operando es igual al parámetro
+//---------------------------------------------------
+
+module vca7316_vd75681 #(
+ parameter K = 0
+) (
+ input [7:0] a,
+ output eq
+);
+ assign eq = (a == K);
+endmodule
+//---- Top entity
+module vf6999a (
+ input vfa6171,
+ input v7cacc4,
+ input v76af38,
+ output v7b40f2
+);
+ wire w0;
+ wire w1;
+ wire w2;
+ wire w3;
+ wire w4;
+ assign v7b40f2 = w1;
+ assign w2 = vfa6171;
+ assign w3 = v7cacc4;
+ assign w4 = v76af38;
+ vb2090f v85500b (
+  .vcbab45(w0),
+  .v0e28cb(w2),
+  .v3ca442(w3)
+ );
+ vb2090f v241483 (
+  .v0e28cb(w0),
+  .vcbab45(w1),
+  .v3ca442(w4)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- AND3
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- Puerta AND de 3 entradas
+//---------------------------------------------------
+//---- Top entity
+module v29e716 (
+ input vc5514b,
+ input vf1aa84,
+ input vb192d0,
+ input v27dec4,
+ input v1120f0,
+ input v109d95,
+ input v08eba1,
+ input v4bab7f,
+ input [2:0] v2f1105,
+ output v030ad0
+);
+ wire w0;
+ wire w1;
+ wire w2;
+ wire w3;
+ wire w4;
+ wire w5;
+ wire w6;
+ wire w7;
+ wire w8;
+ wire [0:2] w9;
+ assign v030ad0 = w0;
+ assign w1 = vc5514b;
+ assign w2 = vf1aa84;
+ assign w3 = v4bab7f;
+ assign w4 = vb192d0;
+ assign w5 = v08eba1;
+ assign w6 = v109d95;
+ assign w7 = v27dec4;
+ assign w8 = v1120f0;
+ assign w9 = v2f1105;
+ v87df5a vfa0b35 (
+  .v030ad0(w0),
+  .vc5514b(w1),
+  .vf1aa84(w2),
+  .v4bab7f(w3),
+  .vb192d0(w4),
+  .v08eba1(w5),
+  .v109d95(w6),
+  .v27dec4(w7),
+  .v1120f0(w8),
+  .v2f1105(w9)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- MuxF-8-1
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- 8-to-1 Multplexer (1-bit channels). Flipped version
+//---------------------------------------------------
+//---- Top entity
+module v87df5a (
+ input v4bab7f,
+ input v08eba1,
+ input v109d95,
+ input v1120f0,
+ input v27dec4,
+ input vb192d0,
+ input vf1aa84,
+ input vc5514b,
+ input [2:0] v2f1105,
+ output v030ad0
+);
+ wire [0:2] w0;
+ wire w1;
+ wire w2;
+ wire w3;
+ wire w4;
+ wire w5;
+ wire w6;
+ wire w7;
+ wire w8;
+ wire [0:1] w9;
+ wire [0:1] w10;
+ wire w11;
+ wire w12;
+ wire w13;
+ wire w14;
+ assign w0 = v2f1105;
+ assign v030ad0 = w3;
+ assign w4 = v4bab7f;
+ assign w5 = v109d95;
+ assign w6 = v27dec4;
+ assign w7 = v08eba1;
+ assign w8 = vf1aa84;
+ assign w11 = v1120f0;
+ assign w13 = vb192d0;
+ assign w14 = vc5514b;
+ assign w10 = w9;
+ vd0c4e5 v609d26 (
+  .v27dec4(w1),
+  .vb192d0(w2),
+  .v030ad0(w3),
+  .v2d3366(w12)
+ );
+ vbae18b v19ba15 (
+  .vdee7c7(w0),
+  .vb66fe9(w9),
+  .v3f8943(w12)
+ );
+ v7fdc59 v5225c3 (
+  .v030ad0(w1),
+  .v27dec4(w4),
+  .vb192d0(w5),
+  .vf1aa84(w6),
+  .vc5514b(w8),
+  .v2bcb3c(w9)
+ );
+ v7fdc59 v41e4e0 (
+  .v030ad0(w2),
+  .v27dec4(w7),
+  .v2bcb3c(w10),
+  .vb192d0(w11),
+  .vf1aa84(w13),
+  .vc5514b(w14)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- Mux-8-1
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- 8-to-1 Multplexer (1-bit channels)
+//---------------------------------------------------
+//---- Top entity
+module vd0c4e5 (
+ input v27dec4,
+ input vb192d0,
+ input v2d3366,
+ output v030ad0
+);
+ wire w0;
+ wire w1;
+ wire w2;
+ wire w3;
+ wire w4;
+ wire w5;
+ wire w6;
+ wire w7;
+ assign v030ad0 = w0;
+ assign w2 = v2d3366;
+ assign w3 = v2d3366;
+ assign w6 = v27dec4;
+ assign w7 = vb192d0;
+ assign w3 = w2;
+ v873425 vaaee1f (
+  .vcbab45(w0),
+  .v0e28cb(w1),
+  .v3ca442(w4)
+ );
+ vba518e v569873 (
+  .vcbab45(w1),
+  .v3ca442(w2),
+  .v0e28cb(w6)
+ );
+ v3676a0 v1f00ae (
+  .v0e28cb(w3),
+  .vcbab45(w5)
+ );
+ vba518e vc8527f (
+  .vcbab45(w4),
+  .v3ca442(w5),
+  .v0e28cb(w7)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- Mux-2-1
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- 2-to-1 Multplexer (1-bit channels)
+//---------------------------------------------------
+//---- Top entity
+module vbae18b (
+ input [2:0] vdee7c7,
+ output [1:0] vb66fe9,
+ output v3f8943
+);
+ wire [0:2] w0;
+ wire [0:1] w1;
+ wire w2;
+ assign w0 = vdee7c7;
+ assign vb66fe9 = w1;
+ assign v3f8943 = w2;
+ vbae18b_v9a2a06 v9a2a06 (
+  .i(w0),
+  .o1(w1),
+  .o0(w2)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- Bus3-Split-2-1
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- Bus3-Split-2-1: Split the 3-bits bus into two: 2-bit and 1-bits buses
+//---------------------------------------------------
+
+module vbae18b_v9a2a06 (
+ input [2:0] i,
+ output [1:0] o1,
+ output o0
+);
+ assign o1 = i[2:1];
+ assign o0 = i[0];
+endmodule
+//---- Top entity
+module v7fdc59 (
+ input v27dec4,
+ input vb192d0,
+ input vf1aa84,
+ input vc5514b,
+ input [1:0] v2bcb3c,
+ output v030ad0
+);
+ wire [0:1] w0;
+ wire w1;
+ wire w2;
+ wire w3;
+ wire w4;
+ wire w5;
+ wire w6;
+ wire w7;
+ wire w8;
+ wire w9;
+ wire w10;
+ assign w0 = v2bcb3c;
+ assign v030ad0 = w3;
+ assign w4 = v27dec4;
+ assign w5 = vb192d0;
+ assign w6 = vf1aa84;
+ assign w9 = vc5514b;
+ assign w8 = w7;
+ vd0c4e5 v2e501e (
+  .v030ad0(w1),
+  .v27dec4(w4),
+  .vb192d0(w6),
+  .v2d3366(w7)
+ );
+ vd0c4e5 v9527bd (
+  .v030ad0(w2),
+  .v27dec4(w5),
+  .v2d3366(w8),
+  .vb192d0(w9)
+ );
+ v0dbcb9 v1aefbf (
+  .v8b19dd(w0),
+  .v3f8943(w7),
+  .v64d863(w10)
+ );
+ vd0c4e5 v609d26 (
+  .v27dec4(w1),
+  .vb192d0(w2),
+  .v030ad0(w3),
+  .v2d3366(w10)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- Mux-4-1
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- 4-to-1 Multplexer (1-bit channels)
+//---------------------------------------------------
+//---- Top entity
+module v51b7b3 #(
+ parameter v422d28 = 0
+) (
+ input v41eb95,
+ input [2:0] v406ca2,
+ input vf892a0,
+ output [2:0] vbd1561
+);
+ localparam p0 = v422d28;
+ wire w1;
+ wire w2;
+ wire [0:2] w3;
+ wire [0:2] w4;
+ assign w1 = vf892a0;
+ assign w2 = v41eb95;
+ assign w3 = v406ca2;
+ assign vbd1561 = w4;
+ v51b7b3_v9148cb #(
+  .INI(p0)
+ ) v9148cb (
+  .load(w1),
+  .clk(w2),
+  .d(w3),
+  .q(w4)
+ );
+endmodule
+
+//---------------------------------------------------
+//-- Registro
+//-- - - - - - - - - - - - - - - - - - - - - - - - --
+//-- Registro de 3 bits
+//---------------------------------------------------
+
+module v51b7b3_v9148cb #(
+ parameter INI = 0
+) (
+ input clk,
+ input [2:0] d,
+ input load,
+ output [2:0] q
+);
+ localparam N = 3;
+ 
+ reg [N-1:0] q = INI;
+ 
+ always @(posedge clk)
+   if (load)
+     q <= d;
 endmodule

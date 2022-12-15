@@ -1,8 +1,5 @@
 import serial, math
 
-CLOCKWISE = 0
-ANTI_CLOCKWISE = 1
-
 # Degree:index
 servoPositions = [0, 15, 30, 45, 60, 70, 80, 90, 100, 110, 120, 135, 150, 165, 180, 180]
 
@@ -19,6 +16,8 @@ class RobotConfig:
     frontLeftAngle = 0
     rearRightAngle = 0
     rearLeftAngle = 0
+    
+    buzzerToneId = 0 # Off
 
 def connect():
     global serialBus
@@ -92,5 +91,8 @@ def configToOrders(input):
     orders.append('0110' + numTo4bitStr(degToServoPosition(input.rearRightAngle)))
     orders.append('0111' + numTo4bitStr(degToServoPosition(input.rearLeftAngle)))
     # Others
+    
+    # Buzzer
+    orders.append('10' + format(input.buzzerToneId, 'b').zfill(6))
     
     return orders
