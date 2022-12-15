@@ -20,8 +20,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "NULL",
-                "value": "NULL"
+                "name": "DD0",
+                "value": "114"
               }
             ]
           },
