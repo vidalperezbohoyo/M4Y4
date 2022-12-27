@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+maya/__init__.py
+maya/maya.py
+maya/maya_ros2_driver.py
+maya.egg-info/PKG-INFO
+maya.egg-info/SOURCES.txt
+maya.egg-info/dependency_links.txt
+maya.egg-info/entry_points.txt
+maya.egg-info/requires.txt
+maya.egg-info/top_level.txt
+maya.egg-info/zip-safe
+resource/maya
