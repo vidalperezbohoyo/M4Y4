@@ -1,0 +1,39 @@
+[0.391s] Invoking command in '/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_pkg': PYTHONPATH=/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/maya_pkg build --build-base /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build install --prefix /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg --record /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/install.log --single-version-externally-managed
+[0.540s] running egg_info
+[0.540s] creating ../../build/maya_pkg/maya_pkg.egg-info
+[0.540s] writing ../../build/maya_pkg/maya_pkg.egg-info/PKG-INFO
+[0.540s] writing dependency_links to ../../build/maya_pkg/maya_pkg.egg-info/dependency_links.txt
+[0.541s] writing entry points to ../../build/maya_pkg/maya_pkg.egg-info/entry_points.txt
+[0.541s] writing requirements to ../../build/maya_pkg/maya_pkg.egg-info/requires.txt
+[0.541s] writing top-level names to ../../build/maya_pkg/maya_pkg.egg-info/top_level.txt
+[0.541s] writing manifest file '../../build/maya_pkg/maya_pkg.egg-info/SOURCES.txt'
+[0.542s] reading manifest file '../../build/maya_pkg/maya_pkg.egg-info/SOURCES.txt'
+[0.542s] writing manifest file '../../build/maya_pkg/maya_pkg.egg-info/SOURCES.txt'
+[0.542s] running build
+[0.542s] running build_py
+[0.542s] creating /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build
+[0.542s] creating /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build/lib
+[0.542s] creating /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build/lib/maya_pkg
+[0.542s] copying maya_pkg/mayaDriver.py -> /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build/lib/maya_pkg
+[0.542s] copying maya_pkg/__init__.py -> /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build/lib/maya_pkg
+[0.543s] running install
+[0.543s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.543s]   warnings.warn(
+[0.543s] running install_lib
+[0.544s] creating /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya_pkg
+[0.544s] copying /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build/lib/maya_pkg/mayaDriver.py -> /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya_pkg
+[0.544s] copying /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build/lib/maya_pkg/__init__.py -> /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya_pkg
+[0.544s] byte-compiling /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya_pkg/mayaDriver.py to mayaDriver.cpython-310.pyc
+[0.545s] byte-compiling /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya_pkg/__init__.py to __init__.cpython-310.pyc
+[0.545s] running install_data
+[0.545s] creating /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/ament_index
+[0.545s] creating /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/ament_index/resource_index
+[0.545s] creating /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/ament_index/resource_index/packages
+[0.545s] copying resource/maya_pkg -> /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/ament_index/resource_index/packages
+[0.545s] copying package.xml -> /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/maya_pkg
+[0.545s] running install_egg_info
+[0.546s] Copying ../../build/maya_pkg/maya_pkg.egg-info to /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya_pkg-0.0.0-py3.10.egg-info
+[0.546s] running install_scripts
+[0.559s] Installing mayaDriver script to /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/maya_pkg
+[0.559s] writing list of installed files to '/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/install.log'
+[0.578s] Invoked command in '/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_pkg' returned '0': PYTHONPATH=/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/maya_pkg build --build-base /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build install --prefix /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg --record /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/install.log --single-version-externally-managed

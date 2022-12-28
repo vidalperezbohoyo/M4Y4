@@ -1,3 +1,0 @@
-[console_scripts]
-maya_driver = maya.maya_ros2_driver:main
-
