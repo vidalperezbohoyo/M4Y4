@@ -1,0 +1,9 @@
+int64 front_right_speed
+int64 front_left_speed
+int64 rear_right_speed
+int64 rear_left_speed
+
+int64 front_right_angle
+int64 front_left_angle
+int64 rear_right_angle
+int64 rear_left_angle

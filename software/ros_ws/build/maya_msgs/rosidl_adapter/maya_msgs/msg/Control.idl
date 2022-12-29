@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from maya_msgs/msg/Control.msg
+// generated code does not contain a copyright notice
+
+
+module maya_msgs {
+  module msg {
+    struct Control {
+      int64 front_right_speed;
+
+      int64 front_left_speed;
+
+      int64 rear_right_speed;
+
+      int64 rear_left_speed;
+
+      int64 front_right_angle;
+
+      int64 front_left_angle;
+
+      int64 rear_right_angle;
+
+      int64 rear_left_angle;
+    };
+  };
+};

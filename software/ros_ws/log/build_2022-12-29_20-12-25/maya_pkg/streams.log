@@ -1,0 +1,23 @@
+[0.425s] Invoking command in '/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_pkg': PYTHONPATH=/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/maya_pkg build --build-base /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build install --prefix /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg --record /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/install.log --single-version-externally-managed
+[0.586s] running egg_info
+[0.586s] writing ../../build/maya_pkg/maya_pkg.egg-info/PKG-INFO
+[0.587s] writing dependency_links to ../../build/maya_pkg/maya_pkg.egg-info/dependency_links.txt
+[0.587s] writing entry points to ../../build/maya_pkg/maya_pkg.egg-info/entry_points.txt
+[0.587s] writing requirements to ../../build/maya_pkg/maya_pkg.egg-info/requires.txt
+[0.587s] writing top-level names to ../../build/maya_pkg/maya_pkg.egg-info/top_level.txt
+[0.588s] reading manifest file '../../build/maya_pkg/maya_pkg.egg-info/SOURCES.txt'
+[0.588s] writing manifest file '../../build/maya_pkg/maya_pkg.egg-info/SOURCES.txt'
+[0.588s] running build
+[0.589s] running build_py
+[0.589s] running install
+[0.589s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.589s]   warnings.warn(
+[0.589s] running install_lib
+[0.590s] running install_data
+[0.591s] running install_egg_info
+[0.592s] removing '/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.592s] Copying ../../build/maya_pkg/maya_pkg.egg-info to /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya_pkg-0.0.0-py3.10.egg-info
+[0.592s] running install_scripts
+[0.605s] Installing mayaDriver script to /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/maya_pkg
+[0.606s] writing list of installed files to '/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/install.log'
+[0.624s] Invoked command in '/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_pkg' returned '0': PYTHONPATH=/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/maya_pkg build --build-base /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build install --prefix /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg --record /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/install.log --single-version-externally-managed

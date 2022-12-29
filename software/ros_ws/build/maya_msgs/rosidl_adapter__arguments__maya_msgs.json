@@ -1,0 +1,7 @@
+{
+  "package_name": "maya_msgs",
+  "non_idl_tuples": [
+    "/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs:msg/Control.msg",
+    "/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs:msg/Sound.msg"
+  ]
+}
