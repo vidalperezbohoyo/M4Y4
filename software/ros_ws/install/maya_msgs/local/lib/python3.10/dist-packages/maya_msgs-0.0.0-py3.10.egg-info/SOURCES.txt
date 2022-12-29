@@ -1,9 +1,1 @@
-setup.py
-maya_msgs/__init__.py
-maya_msgs.egg-info/PKG-INFO
-maya_msgs.egg-info/SOURCES.txt
-maya_msgs.egg-info/dependency_links.txt
-maya_msgs.egg-info/top_level.txt
-maya_msgs/msg/__init__.py
-maya_msgs/msg/_control.py
-maya_msgs/msg/_sound.py
+/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/ament_cmake_python/maya_msgs/maya_msgs.egg-info/SOURCES.txt

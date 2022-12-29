@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating maya_pkg.egg-info
+writing maya_pkg.egg-info/PKG-INFO
+writing dependency_links to maya_pkg.egg-info/dependency_links.txt
+writing entry points to maya_pkg.egg-info/entry_points.txt
+writing requirements to maya_pkg.egg-info/requires.txt
+writing top-level names to maya_pkg.egg-info/top_level.txt
+writing manifest file 'maya_pkg.egg-info/SOURCES.txt'
+reading manifest file 'maya_pkg.egg-info/SOURCES.txt'
+writing manifest file 'maya_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya-pkg.egg-link (link to .)
+Installing mayaDriver script to /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/maya_pkg
+
+Installed /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg
+running install_data
+creating /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/ament_index
+creating /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/ament_index/resource_index
+creating /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/ament_index/resource_index/packages
+copying resource/maya_pkg -> /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/share/maya_pkg

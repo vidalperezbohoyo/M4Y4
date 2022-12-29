@@ -1,0 +1,224 @@
+[0.052s] Invoking command in '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg:/home/vidi/tfg/move_test/install/move_test:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tsc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tracks_gazebo_worlds:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/ros2_and_turtlesim_deep_dive:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/prius_sdc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/mr_rehri:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_package:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_models:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/bazu:/opt/ros/humble /usr/bin/cmake /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs
+[0.205s] -- The C compiler identification is GNU 11.3.0
+[0.339s] -- The CXX compiler identification is GNU 11.3.0
+[0.359s] -- Detecting C compiler ABI info
+[0.476s] -- Detecting C compiler ABI info - done
+[0.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.488s] -- Detecting C compile features
+[0.489s] -- Detecting C compile features - done
+[0.495s] -- Detecting CXX compiler ABI info
+[0.611s] -- Detecting CXX compiler ABI info - done
+[0.631s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.631s] -- Detecting CXX compile features
+[0.632s] -- Detecting CXX compile features - done
+[0.642s] -- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.028s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.144s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.214s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.227s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.243s] -- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.330s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.917s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.336s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.841s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.904s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.911s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.964s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.964s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.964s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.964s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.015s] -- Found PythonExtra: .so  
+[3.103s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.150s] -- Added test 'lint_cmake' to check CMake code style
+[3.152s] -- Added test 'xmllint' to check XML markup files
+[3.158s] -- Configuring done
+[3.195s] -- Generating done
+[3.198s] -- Build files have been written to: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs
+[3.205s] Invoked command in '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg:/home/vidi/tfg/move_test/install/move_test:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tsc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tracks_gazebo_worlds:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/ros2_and_turtlesim_deep_dive:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/prius_sdc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/mr_rehri:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_package:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_models:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/bazu:/opt/ros/humble /usr/bin/cmake /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs
+[3.208s] Invoking command in '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg:/home/vidi/tfg/move_test/install/move_test:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tsc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tracks_gazebo_worlds:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/ros2_and_turtlesim_deep_dive:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/prius_sdc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/mr_rehri:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_package:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_models:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/bazu:/opt/ros/humble /usr/bin/cmake --build /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs -- -j12 -l12
+[3.271s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.282s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.297s] [  5%] Built target ament_cmake_python_symlink_maya_msgs
+[3.672s] running egg_info
+[3.673s] creating maya_msgs.egg-info
+[3.673s] writing maya_msgs.egg-info/PKG-INFO
+[3.673s] writing dependency_links to maya_msgs.egg-info/dependency_links.txt
+[3.673s] writing top-level names to maya_msgs.egg-info/top_level.txt
+[3.674s] writing manifest file 'maya_msgs.egg-info/SOURCES.txt'
+[3.676s] reading manifest file 'maya_msgs.egg-info/SOURCES.txt'
+[3.677s] writing manifest file 'maya_msgs.egg-info/SOURCES.txt'
+[3.718s] [  5%] Built target ament_cmake_python_build_maya_msgs_egg
+[3.769s] [  5%] Built target maya_msgs__cpp
+[3.777s] [  7%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_generator_c.dir/rosidl_generator_c/maya_msgs/msg/detail/sound__functions.c.o[0m
+[3.780s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.780s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.780s] [ 15%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_generator_c.dir/rosidl_generator_c/maya_msgs/msg/detail/control__functions.c.o[0m
+[3.785s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.856s] [ 20%] [32m[1mLinking C shared library libmaya_msgs__rosidl_generator_c.so[0m
+[3.899s] [ 20%] Built target maya_msgs__rosidl_generator_c
+[3.910s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.910s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.910s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.181s] [ 33%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/maya_msgs/msg/control__type_support.cpp.o[0m
+[4.181s] [ 33%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/maya_msgs/msg/sound__type_support.cpp.o[0m
+[4.226s] [ 35%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/maya_msgs/msg/detail/control__type_support.cpp.o[0m
+[4.229s] [ 38%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/maya_msgs/msg/detail/sound__type_support.cpp.o[0m
+[4.251s] [ 41%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/maya_msgs/msg/detail/dds_fastrtps/sound__type_support.cpp.o[0m
+[4.255s] [ 43%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/maya_msgs/msg/detail/dds_fastrtps/control__type_support.cpp.o[0m
+[4.354s] [ 48%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/maya_msgs/msg/control__type_support.cpp.o[0m
+[4.354s] [ 48%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/maya_msgs/msg/sound__type_support.cpp.o[0m
+[4.419s] [ 51%] [32m[1mLinking CXX shared library libmaya_msgs__rosidl_typesupport_c.so[0m
+[4.453s] [ 53%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/maya_msgs/msg/detail/control__type_support.c.o[0m
+[4.466s] [ 56%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/maya_msgs/msg/detail/sound__type_support.c.o[0m
+[4.471s] [ 58%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/maya_msgs/msg/detail/control__type_support_c.cpp.o[0m
+[4.480s] [ 61%] [32mBuilding CXX object CMakeFiles/maya_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/maya_msgs/msg/detail/sound__type_support_c.cpp.o[0m
+[4.521s] [ 61%] Built target maya_msgs__rosidl_typesupport_c
+[4.546s] [ 64%] [32m[1mLinking C shared library libmaya_msgs__rosidl_typesupport_introspection_c.so[0m
+[4.593s] [ 64%] Built target maya_msgs__rosidl_typesupport_introspection_c
+[4.664s] [ 66%] [32m[1mLinking CXX shared library libmaya_msgs__rosidl_typesupport_cpp.so[0m
+[4.715s] [ 66%] Built target maya_msgs__rosidl_typesupport_cpp
+[4.914s] [ 69%] [32m[1mLinking CXX shared library libmaya_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[4.941s] [ 71%] [32m[1mLinking CXX shared library libmaya_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.971s] [ 71%] Built target maya_msgs__rosidl_typesupport_introspection_cpp
+[4.993s] [ 74%] [32m[1mLinking CXX shared library libmaya_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[5.054s] [ 74%] Built target maya_msgs__rosidl_typesupport_fastrtps_cpp
+[5.107s] [ 74%] Built target maya_msgs__rosidl_typesupport_fastrtps_c
+[5.131s] [ 74%] Built target maya_msgs
+[5.154s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.923s] [ 76%] Built target maya_msgs__py
+[5.957s] [ 79%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_generator_py.dir/rosidl_generator_py/maya_msgs/msg/_control_s.c.o[0m
+[5.961s] [ 82%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_generator_py.dir/rosidl_generator_py/maya_msgs/msg/_sound_s.c.o[0m
+[6.106s] [ 84%] [32m[1mLinking C shared library rosidl_generator_py/maya_msgs/libmaya_msgs__rosidl_generator_py.so[0m
+[6.156s] [ 84%] Built target maya_msgs__rosidl_generator_py
+[6.179s] [ 89%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/maya_msgs/_maya_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.179s] [ 89%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/maya_msgs/_maya_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[6.180s] [ 92%] [32mBuilding C object CMakeFiles/maya_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/maya_msgs/_maya_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.305s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/maya_msgs/maya_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.306s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/maya_msgs/maya_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.309s] [100%] [32m[1mLinking C shared library rosidl_generator_py/maya_msgs/maya_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.350s] [100%] Built target maya_msgs__rosidl_typesupport_c__pyext
+[6.352s] [100%] Built target maya_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.359s] [100%] Built target maya_msgs__rosidl_typesupport_introspection_c__pyext
+[6.372s] Invoked command in '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg:/home/vidi/tfg/move_test/install/move_test:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tsc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tracks_gazebo_worlds:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/ros2_and_turtlesim_deep_dive:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/prius_sdc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/mr_rehri:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_package:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_models:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/bazu:/opt/ros/humble /usr/bin/cmake --build /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs -- -j12 -l12
+[6.489s] Invoking command in '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg:/home/vidi/tfg/move_test/install/move_test:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tsc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tracks_gazebo_worlds:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/ros2_and_turtlesim_deep_dive:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/prius_sdc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/mr_rehri:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_package:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_models:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/bazu:/opt/ros/humble /usr/bin/cmake --install /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs
+[6.497s] -- Install configuration: ""
+[6.498s] -- Execute custom install script
+[6.498s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/ament_index/resource_index/rosidl_interfaces/maya_msgs
+[6.515s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/control.h
+[6.531s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__functions.h
+[6.541s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__struct.h
+[6.555s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__type_support.h
+[6.570s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__functions.h
+[6.579s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__struct.h
+[6.593s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__type_support.h
+[6.602s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.616s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/sound.h
+[6.634s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/environment/library_path.sh
+[6.643s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/environment/library_path.dsv
+[6.658s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__rosidl_typesupport_fastrtps_c.h
+[6.672s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_c.h
+[6.685s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.695s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__rosidl_typesupport_introspection_c.h
+[6.709s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__rosidl_typesupport_introspection_c.h
+[6.719s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.731s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/control.hpp
+[6.742s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__builder.hpp
+[6.752s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__struct.hpp
+[6.765s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__traits.hpp
+[6.775s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__builder.hpp
+[6.784s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__struct.hpp
+[6.796s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__traits.hpp
+[6.807s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/sound.hpp
+[6.817s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__rosidl_typesupport_fastrtps_cpp.hpp
+[6.828s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__rosidl_typesupport_fastrtps_cpp.hpp
+[6.846s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.856s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/control__rosidl_typesupport_introspection_cpp.hpp
+[6.870s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/include/maya_msgs/maya_msgs/msg/detail/sound__rosidl_typesupport_introspection_cpp.hpp
+[6.880s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/environment/pythonpath.sh
+[6.894s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/environment/pythonpath.dsv
+[6.905s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[6.919s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.936s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.946s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[6.957s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/__init__.py
+[6.966s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/_maya_msgs_s.ep.rosidl_typesupport_c.c
+[6.981s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/_maya_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.990s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/_maya_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[7.000s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/libmaya_msgs__rosidl_generator_py.so
+[7.014s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/maya_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.026s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/maya_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.043s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/maya_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.052s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg/__init__.py
+[7.061s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg/_control.py
+[7.070s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg/_control_s.c
+[7.085s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg/_sound.py
+[7.095s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg/_sound_s.c
+[7.105s] -- Up-to-date symlink: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/maya_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[7.105s] -- Up-to-date symlink: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/maya_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[7.105s] -- Up-to-date symlink: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/maya_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[7.106s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/msg/Control.idl
+[7.121s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/msg/Sound.idl
+[7.138s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/msg/Control.msg
+[7.148s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/msg/Sound.msg
+[7.163s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/ament_index/resource_index/package_run_dependencies/maya_msgs
+[7.173s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/ament_index/resource_index/parent_prefix_path/maya_msgs
+[7.183s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/environment/ament_prefix_path.sh
+[7.204s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/environment/ament_prefix_path.dsv
+[7.209s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/environment/path.sh
+[7.224s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/environment/path.dsv
+[7.242s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/local_setup.bash
+[7.253s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/local_setup.sh
+[7.267s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/local_setup.zsh
+[7.281s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/local_setup.dsv
+[7.295s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/package.dsv
+[7.310s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/ament_index/resource_index/packages/maya_msgs
+[7.327s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/rosidl_cmake-extras.cmake
+[7.346s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.362s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[7.376s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[7.391s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.401s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.416s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.433s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgsConfig.cmake
+[7.443s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgsConfig-version.cmake
+[7.453s] -- Symlinking: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/package.xml
+[7.470s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_generator_c.so
+[7.471s] -- Set runtime path of "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_generator_c.so" to ""
+[7.471s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_fastrtps_c.so
+[7.471s] -- Set runtime path of "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.471s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_introspection_c.so
+[7.472s] -- Set runtime path of "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_introspection_c.so" to ""
+[7.472s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_c.so
+[7.472s] -- Set runtime path of "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_c.so" to ""
+[7.472s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_fastrtps_cpp.so
+[7.473s] -- Set runtime path of "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.473s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_introspection_cpp.so
+[7.473s] -- Set runtime path of "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[7.473s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_cpp.so
+[7.473s] -- Set runtime path of "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_typesupport_cpp.so" to ""
+[7.543s] Listing '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs'...
+[7.544s] Compiling '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/__init__.py'...
+[7.544s] Listing '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg'...
+[7.544s] Compiling '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg/__init__.py'...
+[7.544s] Compiling '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg/_control.py'...
+[7.544s] Compiling '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/local/lib/python3.10/dist-packages/maya_msgs/msg/_sound.py'...
+[7.549s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_generator_py.so
+[7.550s] -- Set runtime path of "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/lib/libmaya_msgs__rosidl_generator_py.so" to ""
+[7.550s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_generator_cExport.cmake
+[7.550s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_generator_cExport-noconfig.cmake
+[7.550s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[7.550s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[7.551s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgs__rosidl_typesupport_introspection_cExport.cmake
+[7.551s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[7.551s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgs__rosidl_typesupport_cExport.cmake
+[7.551s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[7.551s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_generator_cppExport.cmake
+[7.552s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.552s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[7.552s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[7.552s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[7.552s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgs__rosidl_typesupport_cppExport.cmake
+[7.553s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/maya_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[7.553s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_generator_pyExport.cmake
+[7.553s] -- Installing: /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_msgs/share/maya_msgs/cmake/export_maya_msgs__rosidl_generator_pyExport-noconfig.cmake
+[7.560s] Invoked command in '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg:/home/vidi/tfg/move_test/install/move_test:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tsc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/tracks_gazebo_worlds:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/ros2_and_turtlesim_deep_dive:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/prius_sdc:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/mr_rehri:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_package:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/custom_models:/home/vidi/tfg/ROS2-Ultimate-learners-Repository/install/bazu:/opt/ros/humble /usr/bin/cmake --install /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs

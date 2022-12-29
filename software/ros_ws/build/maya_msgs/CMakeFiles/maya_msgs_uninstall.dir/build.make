@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs
+CMAKE_SOURCE_DIR = /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs
+CMAKE_BINARY_DIR = /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs
 
 # Utility rule file for maya_msgs_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/maya_msgs_uninstall.dir/compiler_depend.make
 include CMakeFiles/maya_msgs_uninstall.dir/progress.make
 
 CMakeFiles/maya_msgs_uninstall:
-	/usr/bin/cmake -P /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 maya_msgs_uninstall: CMakeFiles/maya_msgs_uninstall
 maya_msgs_uninstall: CMakeFiles/maya_msgs_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/maya_msgs_uninstall.dir/clean:
 .PHONY : CMakeFiles/maya_msgs_uninstall.dir/clean
 
 CMakeFiles/maya_msgs_uninstall.dir/depend:
-	cd /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/CMakeFiles/maya_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/src/maya_msgs /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/CMakeFiles/maya_msgs_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/maya_msgs_uninstall.dir/depend
 

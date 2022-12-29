@@ -1,4 +1,1 @@
-source;share/maya_msgs/environment/ament_prefix_path.sh
-source;share/maya_msgs/environment/library_path.sh
-source;share/maya_msgs/environment/path.sh
-source;share/maya_msgs/environment/pythonpath.sh
+/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,5 +1,5 @@
 CMakeFiles/maya_msgs__rosidl_generator_py.dir/rosidl_generator_py/maya_msgs/msg/_control_s.c.o: \
- /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_py/maya_msgs/msg/_control_s.c \
+ /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_py/maya_msgs/msg/_control_s.c \
  /usr/include/stdc-predef.h /usr/include/python3.10/Python.h \
  /usr/include/python3.10/patchlevel.h /usr/include/python3.10/pyconfig.h \
  /usr/include/x86_64-linux-gnu/python3.10/pyconfig.h \
@@ -207,6 +207,6 @@ CMakeFiles/maya_msgs__rosidl_generator_py.dir/rosidl_generator_py/maya_msgs/msg/
  /usr/include/python3.10/numpy/_neighborhood_iterator_imp.h \
  /usr/include/python3.10/numpy/__multiarray_api.h \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
- /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_c/maya_msgs/msg/detail/control__struct.h \
- /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_c/maya_msgs/msg/detail/control__functions.h \
- /home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_c/maya_msgs/msg/rosidl_generator_c__visibility_control.h
+ /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_c/maya_msgs/msg/detail/control__struct.h \
+ /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_c/maya_msgs/msg/detail/control__functions.h \
+ /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_c/maya_msgs/msg/rosidl_generator_c__visibility_control.h

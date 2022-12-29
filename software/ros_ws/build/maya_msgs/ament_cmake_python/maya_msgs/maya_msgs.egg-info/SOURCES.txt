@@ -4,6 +4,3 @@ maya_msgs.egg-info/PKG-INFO
 maya_msgs.egg-info/SOURCES.txt
 maya_msgs.egg-info/dependency_links.txt
 maya_msgs.egg-info/top_level.txt
-maya_msgs/msg/__init__.py
-maya_msgs/msg/_control.py
-maya_msgs/msg/_sound.py

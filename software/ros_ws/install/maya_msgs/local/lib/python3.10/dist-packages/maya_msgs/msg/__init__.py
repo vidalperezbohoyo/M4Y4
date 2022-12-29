@@ -1,2 +1,1 @@
-from maya_msgs.msg._control import Control  # noqa: F401
-from maya_msgs.msg._sound import Sound  # noqa: F401
+/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_py/maya_msgs/msg/__init__.py

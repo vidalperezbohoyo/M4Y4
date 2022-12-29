@@ -1,10 +1,10 @@
 {
   "package_name": "maya_msgs",
-  "output_dir": "/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_py/maya_msgs",
+  "output_dir": "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_generator_py/maya_msgs",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource",
   "idl_tuples": [
-    "/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_adapter/maya_msgs:msg/Control.idl",
-    "/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_adapter/maya_msgs:msg/Sound.idl"
+    "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_adapter/maya_msgs:msg/Control.idl",
+    "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_adapter/maya_msgs:msg/Sound.idl"
   ],
   "target_dependencies": [
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
@@ -20,7 +20,7 @@
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
     "/opt/ros/humble/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
-    "/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_adapter/maya_msgs/msg/Control.idl",
-    "/home/patricia/Escritorio/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_adapter/maya_msgs/msg/Sound.idl"
+    "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_adapter/maya_msgs/msg/Control.idl",
+    "/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_msgs/rosidl_adapter/maya_msgs/msg/Sound.idl"
   ]
 }

@@ -49,9 +49,22 @@ def sendConfig(config):
     return True
 
 def numTo3bitStr(num):
+    # Prevent incorrect numbers
+    if num < 0:
+        num = 0
+    if num > 7:
+        num = 7
+            
     return format(num, 'b').zfill(3)
 
 def numTo4bitStr(num):
+    
+    # Prevent incorrect numbers
+    if num < 0:
+        num = 0
+    if num > 15:
+        num = 15
+    
     return format(num, 'b').zfill(4)
 
 def wheelSense(speed):
@@ -66,9 +79,11 @@ def degToServoPosition(degrees):
     # Transform to servo referece system
         
     # Angle in must be from 90 to -90
-    if (degrees > 90 or degrees < -90):
-        print("Wheel angles must be between [90º and -90º]")
-        exit(1)
+    if degrees > 90:
+        degrees = 90
+    if degrees < -90:
+        degrees = -90
+    
     degrees = 90 - int(degrees)
     
     closest = min(servoPositions, key=lambda angle: math.sqrt((degrees)^2 + (angle)^2))
