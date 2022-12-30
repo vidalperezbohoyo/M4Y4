@@ -4,6 +4,7 @@ setup.py
 maya_pkg/__init__.py
 maya_pkg/buzzerTest.py
 maya_pkg/mayaDriver.py
+maya_pkg/movementTest.py
 maya_pkg.egg-info/PKG-INFO
 maya_pkg.egg-info/SOURCES.txt
 maya_pkg.egg-info/dependency_links.txt

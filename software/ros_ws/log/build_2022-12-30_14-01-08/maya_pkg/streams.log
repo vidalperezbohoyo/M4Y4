@@ -1,0 +1,27 @@
+[0.963s] Invoking command in '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg': PYTHONPATH=/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg --editable --build-directory /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build --no-deps install_data --install-dir /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg
+[1.366s] running develop
+[1.367s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.367s]   warnings.warn(
+[1.369s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.369s]   warnings.warn(
+[1.458s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+[1.458s]   warnings.warn(
+[1.459s] /usr/lib/python3/dist-packages/pkg_resources/__init__.py:116: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+[1.459s]   warnings.warn(
+[1.623s] running egg_info
+[1.624s] writing maya_pkg.egg-info/PKG-INFO
+[1.624s] writing dependency_links to maya_pkg.egg-info/dependency_links.txt
+[1.625s] writing entry points to maya_pkg.egg-info/entry_points.txt
+[1.625s] writing requirements to maya_pkg.egg-info/requires.txt
+[1.625s] writing top-level names to maya_pkg.egg-info/top_level.txt
+[1.627s] reading manifest file 'maya_pkg.egg-info/SOURCES.txt'
+[1.628s] writing manifest file 'maya_pkg.egg-info/SOURCES.txt'
+[1.631s] running build_ext
+[1.632s] Creating /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya-pkg.egg-link (link to .)
+[1.633s] Installing buzzerTest script to /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/maya_pkg
+[1.633s] Installing mayaDriver script to /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/maya_pkg
+[1.633s] Installing movementTest script to /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/maya_pkg
+[1.633s] 
+[1.634s] Installed /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg
+[1.634s] running install_data
+[1.715s] Invoked command in '/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg' returned '0': PYTHONPATH=/home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --prefix /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg --editable --build-directory /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg/build --no-deps install_data --install-dir /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg

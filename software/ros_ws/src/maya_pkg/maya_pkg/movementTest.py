@@ -14,7 +14,7 @@ class Movement(Node):
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 1
 
-    def fillMsg(speed=0, angles_list=[0, 0, 0, 0]):
+    def fillMsg(self, speed=0, angles_list=[0, 0, 0, 0]):
         msg = Control()
 
         msg.front_right_speed = speed
@@ -32,7 +32,7 @@ class Movement(Node):
     def timer_callback(self):
 
         if self.i == 1:
-            msg = self.fillMsg(1)
+            msg = self.fillMsg(1, [0, 0, 0, 0])
             self.publisher_.publish(msg)
         elif self.i == 2:
             msg = self.fillMsg(1, [30, 30, 0, 0])
@@ -41,12 +41,25 @@ class Movement(Node):
             msg = self.fillMsg(1, [-30, -30, 0, 0])
             self.publisher_.publish(msg)
         elif self.i == 4:
-            msg = self.fillMsg(2, [-45, 45, 45, -45])
+            msg = Control()
+            msg.front_right_speed = 2
+            msg.front_left_speed = -2
+            msg.rear_right_speed = 2
+            msg.rear_left_speed = -2
+
+            msg.front_right_angle = 45
+            msg.front_left_angle = -45
+            msg.rear_right_angle = -45
+            msg.rear_left_angle = 45
             self.publisher_.publish(msg)
         else:
             msg = self.fillMsg()
             self.publisher_.publish(msg)
         self.i += 1
+        
+        if self.i == 6:
+            exit(0)
+        	
 
 
 def main(args=None):
