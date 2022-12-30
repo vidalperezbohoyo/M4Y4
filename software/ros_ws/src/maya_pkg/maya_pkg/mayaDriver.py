@@ -33,19 +33,22 @@ class MayaDriver(Node):
            
         self.maya_config = maya.RobotConfig()
 
-    def connected_melody():
+    def connected_melody(self):
         config = maya.RobotConfig()
-        # SI FA RE 
-        config.buzzerToneId = 6
-        time.sleep(0.7)
+        
+        config.buzzerToneId = 1
+        time.sleep(0.2)
+        maya.sendConfig(config)
+        
+        config.buzzerToneId = 2
+        time.sleep(0.2)
         maya.sendConfig(config)
         
         config.buzzerToneId = 3
-        time.sleep(0.7)
+        time.sleep(0.2)
         maya.sendConfig(config)
         
-        config.buzzerToneId = 1
-        time.sleep(0.7)
+        config.buzzerToneId = 0
         maya.sendConfig(config)
     
     def control_callback(self, msg):
