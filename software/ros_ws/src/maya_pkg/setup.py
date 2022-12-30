@@ -24,7 +24,8 @@ setup(
     entry_points={
         'console_scripts': [
             'mayaDriver = maya_pkg.mayaDriver:main',
-            'buzzerTest = maya_pkg.buzzerTest:main'
+            'buzzerTest = maya_pkg.buzzerTest:main',
+            'movementTest = maya_pkg.movementTest:main'
         ],
     },
 )
