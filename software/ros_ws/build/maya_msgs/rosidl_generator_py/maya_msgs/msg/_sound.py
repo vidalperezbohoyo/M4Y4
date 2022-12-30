@@ -20,13 +20,14 @@ class Metaclass_Sound(type):
     _TYPE_SUPPORT = None
 
     __constants = {
-        'DO': 0,
-        'RE': 1,
-        'MI': 2,
-        'FA': 3,
-        'SOL': 4,
-        'LA': 5,
-        'SI': 6,
+        'OFF': 0,
+        'DO': 1,
+        'RE': 2,
+        'MI': 3,
+        'FA': 4,
+        'SOL': 5,
+        'LA': 6,
+        'SI': 7,
     }
 
     @classmethod
@@ -55,6 +56,7 @@ class Metaclass_Sound(type):
         # the message class under "Data and other attributes defined here:"
         # as well as populate each message instance
         return {
+            'OFF': cls.__constants['OFF'],
             'DO': cls.__constants['DO'],
             'RE': cls.__constants['RE'],
             'MI': cls.__constants['MI'],
@@ -63,6 +65,11 @@ class Metaclass_Sound(type):
             'LA': cls.__constants['LA'],
             'SI': cls.__constants['SI'],
         }
+
+    @property
+    def OFF(self):
+        """Message constant 'OFF'."""
+        return Metaclass_Sound.__constants['OFF']
 
     @property
     def DO(self):
@@ -105,6 +112,7 @@ class Sound(metaclass=Metaclass_Sound):
     Message class 'Sound'.
 
     Constants:
+      OFF
       DO
       RE
       MI

@@ -66,20 +66,22 @@ struct Sound_
   }
 
   // constant declarations
-  static constexpr int64_t DO =
+  static constexpr int64_t OFF =
     0;
-  static constexpr int64_t RE =
+  static constexpr int64_t DO =
     1;
-  static constexpr int64_t MI =
+  static constexpr int64_t RE =
     2;
-  static constexpr int64_t FA =
+  static constexpr int64_t MI =
     3;
-  static constexpr int64_t SOL =
+  static constexpr int64_t FA =
     4;
-  static constexpr int64_t LA =
+  static constexpr int64_t SOL =
     5;
-  static constexpr int64_t SI =
+  static constexpr int64_t LA =
     6;
+  static constexpr int64_t SI =
+    7;
 
   // pointer types
   using RawPtr =
@@ -137,6 +139,8 @@ using Sound =
   maya_msgs::msg::Sound_<std::allocator<void>>;
 
 // constant definitions
+template<typename ContainerAllocator>
+constexpr int64_t Sound_<ContainerAllocator>::OFF;
 template<typename ContainerAllocator>
 constexpr int64_t Sound_<ContainerAllocator>::DO;
 template<typename ContainerAllocator>

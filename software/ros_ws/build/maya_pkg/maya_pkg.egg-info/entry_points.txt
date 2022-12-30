@@ -1,3 +1,4 @@
 [console_scripts]
+buzzerTest = maya_pkg.buzzerTest:main
 mayaDriver = maya_pkg.mayaDriver:main
 

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing maya_pkg.egg-info/PKG-INFO
+writing dependency_links to maya_pkg.egg-info/dependency_links.txt
+writing entry points to maya_pkg.egg-info/entry_points.txt
+writing requirements to maya_pkg.egg-info/requires.txt
+writing top-level names to maya_pkg.egg-info/top_level.txt
+reading manifest file 'maya_pkg.egg-info/SOURCES.txt'
+writing manifest file 'maya_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/python3.10/site-packages/maya-pkg.egg-link (link to .)
+Installing buzzerTest script to /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/maya_pkg
+Installing mayaDriver script to /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/install/maya_pkg/lib/maya_pkg
+
+Installed /home/vidi/reposMecatronica/Mecatronica-Proyecto/software/ros_ws/build/maya_pkg
+running install_data

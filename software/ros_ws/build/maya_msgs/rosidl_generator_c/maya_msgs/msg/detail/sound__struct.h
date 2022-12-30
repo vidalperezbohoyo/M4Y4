@@ -17,46 +17,52 @@ extern "C"
 
 // Constants defined in the message
 
+/// Constant 'OFF'.
+enum
+{
+  maya_msgs__msg__Sound__OFF = 0ll
+};
+
 /// Constant 'DO'.
 enum
 {
-  maya_msgs__msg__Sound__DO = 0ll
+  maya_msgs__msg__Sound__DO = 1ll
 };
 
 /// Constant 'RE'.
 enum
 {
-  maya_msgs__msg__Sound__RE = 1ll
+  maya_msgs__msg__Sound__RE = 2ll
 };
 
 /// Constant 'MI'.
 enum
 {
-  maya_msgs__msg__Sound__MI = 2ll
+  maya_msgs__msg__Sound__MI = 3ll
 };
 
 /// Constant 'FA'.
 enum
 {
-  maya_msgs__msg__Sound__FA = 3ll
+  maya_msgs__msg__Sound__FA = 4ll
 };
 
 /// Constant 'SOL'.
 enum
 {
-  maya_msgs__msg__Sound__SOL = 4ll
+  maya_msgs__msg__Sound__SOL = 5ll
 };
 
 /// Constant 'LA'.
 enum
 {
-  maya_msgs__msg__Sound__LA = 5ll
+  maya_msgs__msg__Sound__LA = 6ll
 };
 
 /// Constant 'SI'.
 enum
 {
-  maya_msgs__msg__Sound__SI = 6ll
+  maya_msgs__msg__Sound__SI = 7ll
 };
 
 /// Struct defined in msg/Sound in the package maya_msgs.

@@ -6,13 +6,14 @@
 module maya_msgs {
   module msg {
     module Sound_Constants {
-      const int64 DO = 0;
-      const int64 RE = 1;
-      const int64 MI = 2;
-      const int64 FA = 3;
-      const int64 SOL = 4;
-      const int64 LA = 5;
-      const int64 SI = 6;
+      const int64 OFF = 0;
+      const int64 DO = 1;
+      const int64 RE = 2;
+      const int64 MI = 3;
+      const int64 FA = 4;
+      const int64 SOL = 5;
+      const int64 LA = 6;
+      const int64 SI = 7;
     };
     struct Sound {
       int64 tone;

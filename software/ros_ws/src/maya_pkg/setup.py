@@ -23,7 +23,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'mayaDriver = maya_pkg.mayaDriver:main'
+            'mayaDriver = maya_pkg.mayaDriver:main',
+            'buzzerTest = maya_pkg.buzzerTest:main'
         ],
     },
 )
